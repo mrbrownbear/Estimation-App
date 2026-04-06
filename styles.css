@@ -1,0 +1,541 @@
+:root {
+  --bg: #f6f7fb;
+  --card: #ffffff;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --accent: #2563eb;
+  --border: #e5e7eb;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.app-header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 16px 24px;
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+}
+.app-header h1 { margin: 0; font-size: 20px; }
+.actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; justify-self: center; }
+.saved-select span { margin-right: 6px; color: var(--muted); }
+
+button {
+  padding: 8px 12px;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button.secondary { background: #374151; }
+button.danger { background: #dc2626; }
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.container { max-width: 1100px; margin: 24px auto; padding: 0 16px; }
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.card h2 { margin-top: 0; font-size: 18px; }
+.section-header { display: flex; align-items: center; justify-content: space-between; }
+
+label { display: flex; flex-direction: column; gap: 6px; font-size: 13px; }
+input, textarea, select {
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 14px;
+}
+/* Ensure date input has enough width for full day grid pickers */
+input[type="date"] { min-width: 220px; }
+
+/* Events controls */
+.events-controls { display: flex; align-items: flex-end; gap: 12px; margin-top: 8px; }
+.events-controls .events-actions { display: flex; gap: 8px; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.full { grid-column: 1 / -1; }
+
+/* Totals area layout */
+#totalsSection .totals-grid {
+  display: grid;
+  grid-template-columns: 1.8fr 0.8fr;
+  gap: 16px;
+  align-items: start;
+}
+#totalsSection .totals-left .stat { padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; background: #fafafa; }
+#totalsSection .totals-left .stat .value { text-align: right; }
+#totalsSection .totals-left .subtext { color: var(--muted); margin-top: 6px; }
+#totalsSection .totals-right label { margin-bottom: 8px; }
+.totals-right .tax-row { display: flex; align-items: center; gap: 8px; }
+.totals-right .tax-row input[type="number"] { width: 80px; }
+
+/* Clean summary rows with right-aligned amounts */
+#totalsSection .summary { grid-template-columns: 1fr 1fr; }
+#totalsSection .summary > div { display: flex; justify-content: space-between; align-items: baseline; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; background: #fff; }
+#totalsSection .summary .grand { grid-column: 1 / -1; font-size: 18px; font-weight: 700; }
+#totalsSection .summary #grandTotal { font-size: 20px; font-weight: 800; }
+
+.station {
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+.station-header { display: flex; gap: 12px; align-items: center; }
+.station-header input.station-name { flex: 1; }
+.station-header input.station-name.has-text {
+  color: #b91c1c;
+  font-weight: 700;
+}
+.station-header input.station-name:focus {
+  color: #b91c1c; /* red */
+  font-weight: 700; /* bold */
+  border-color: #ef4444;
+  box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.2);
+}
+.items-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.items-table th, .items-table td {
+  border-bottom: 1px solid var(--border);
+  padding: 8px;
+  text-align: left;
+}
+.items-actions { display: flex; gap: 8px; margin-top: 10px; }
+.station-total { text-align: right; font-weight: 600; margin-top: 8px; }
+/* Separator lines under each station on Estimate and Contract */
+.estimate-page .station-total { border-bottom: 1px solid #d1d5db; padding-bottom: 6px; margin-bottom: 12px; }
+.contract-view .menu-items { border-bottom: 1px solid #d1d5db; padding-bottom: 6px; margin-bottom: 12px; }
+
+/* Station options row */
+.station-options { display: flex; justify-content: flex-end; margin-top: 8px; }
+.station-options .inline-input { gap: 6px; color: var(--muted); }
+
+.stat .label { color: var(--muted); font-size: 12px; }
+.stat .value { font-weight: 600; font-size: 16px; }
+.summary { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-top: 12px; }
+.summary .label { color: var(--muted); }
+.summary .grand { grid-column: 1 / -1; font-size: 18px; font-weight: 700; }
+
+.footer { text-align: center; color: var(--muted); padding: 12px 0 24px; }
+
+.toggle { align-items: center; gap: 8px; }
+
+.inline-input { display: flex; gap: 8px; align-items: center; }
+
+/* Print layout */
+.print-view { display: none; padding: 24px; color: #111827; font-family: Calibri, "Segoe UI", Tahoma, sans-serif; font-size: 15pt; line-height: 1.35; }
+/* Increase saved Estimate PDF fonts: +4pt globally, +8pt station titles */
+.print-view.pdf-plus { font-size: 29pt; line-height: 1.45; }
+/* Ensure all key text areas are 29pt in pdf-plus */
+.print-view.pdf-plus .print-header .company,
+.print-view.pdf-plus .print-header .brand,
+.print-view.pdf-plus .print-title,
+.print-view.pdf-plus .print-client,
+.print-view.pdf-plus .print-client span,
+.print-view.pdf-plus .print-table,
+.print-view.pdf-plus .print-table th,
+.print-view.pdf-plus .print-table td,
+.print-view.pdf-plus .print-table .station-title-row,
+.print-view.pdf-plus .print-totals,
+.print-view.pdf-plus .print-totals td,
+.print-view.pdf-plus .print-totals .grand td,
+.print-view.pdf-plus .summary,
+.print-view.pdf-plus .summary .label,
+.print-view.pdf-plus .summary .grand,
+.print-view.pdf-plus .footer,
+.print-view.pdf-plus .page-number { font-size: 29pt !important; }
+
+/* Saved Estimate PDF: decrease top-right address (company) by 8pt for readability */
+.print-view.pdf-plus .print-header .company { font-size: 21pt !important; }
+
+/* Station titles: +8pt and bold in saved PDFs */
+.print-view.pdf-plus .print-table .station-title-row { font-size: 33pt !important; font-weight: 700 !important; }
+/* Increase all key text areas by +10pt for saved Estimate */
+/* Removed global font upsizing for pdf-plus to match print view */
+/* Station title uses normal print sizing in saved PDF */
+/* .print-view.pdf-plus .print-table .station-title-row { font-size: inherit; font-weight: inherit; } */
+/* Increase brand logo size by ~30% during export */
+/* Keep brand logo same size as normal print */
+/* .print-view.pdf-plus .brand-logo { height: 96px; max-width: 440px; } */
+/* When capturing to PDF, slightly increase base font size and tighten spacing */
+/* Removed pdf-capture overrides to keep print and saved PDF identical */
+.print-header { display: flex; justify-content: space-between; align-items: flex-start; }
+.print-header .brand { font-size: 32px; font-weight: 800; color: #ef4444; }
+.print-header .company { text-align: right; font-size: 12px; color: #374151; }
+/* Increase top-right address size on estimate printout by 3pt */
+.print-view .print-header .company { font-size: 15pt; }
+.print-title { text-align: center; margin: 8px 0 16px; }
+.print-client { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-bottom: 10px; }
+.print-client .full { grid-column: 1 / -1; }
+.print-client span:first-child { color: #6b7280; margin-right: 6px; }
+.print-table, .print-totals { width: 100%; border-collapse: collapse; }
+.print-view .print-table { table-layout: fixed; }
+.print-view .print-table th, .print-view .print-table td { text-align: left; vertical-align: top; }
+.print-view .print-table td { white-space: normal; line-height: 1.25; }
+/* Keep borders for totals table, remove borders from print item rows */
+.print-table th { border: 1px solid #e5e7eb; padding: 8px; }
+.print-table td { border: none; padding: 6px 8px; }
+.print-totals td { border: 1px solid #e5e7eb; padding: 8px; }
+.print-table thead th { background: #f3f4f6; }
+.print-totals { margin-top: 12px; }
+.print-totals .amount { text-align: right; width: 120px; }
+.print-totals .grand td { font-weight: 700; }
+/* Divider line under each station block in printed estimate */
+.print-table .station-divider td { border-bottom: 1px solid #d1d5db; padding: 0; height: 8px; }
+
+/* Brand logo handling */
+.print-header .brand { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 1.1em; }
+.brand-logo { display: none; height: 96px; max-width: 440px; object-fit: contain; }
+.brand.has-logo .brand-text { display: none; }
+.brand.has-logo .brand-logo { display: block; }
+
+/* Saved Estimate PDF: increase brand logo size by ~50% */
+.print-view.pdf-plus .brand-logo { height: 144px; max-width: 660px; }
+
+/* Tighter layout when capturing to PDF to reduce inner margins */
+.print-view.pdf-tight { padding: 8px; }
+.print-view.pdf-tight .print-title { margin: 4px 0 8px; }
+.print-view.pdf-tight .print-client { gap: 4px; margin-bottom: 6px; }
+.print-view.pdf-tight .print-table th { padding: 6px; }
+.print-view.pdf-tight .print-table td { padding: 5px 6px; }
+.print-view.pdf-tight .print-totals { margin-top: 8px; }
+.print-view.pdf-tight .print-totals td { padding: 6px; }
+.print-view.pdf-tight .print-table .station-divider td { height: 4px; padding: 0; }
+
+
+/* Dropdown for secondary actions */
+.dropdown { position: relative; display: inline-block; }
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 6px);
+  min-width: 240px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  padding: 8px;
+  display: none;
+  z-index: 1000;
+}
+.dropdown.open .dropdown-menu { display: block; }
+.dropdown-menu button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 8px 10px;
+  border-radius: 6px;
+  margin: 2px 0;
+}
+.dropdown-menu button:hover {
+  filter: brightness(1.08);
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.06);
+}
+.dropdown-menu button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(37,99,235,0.35);
+}
+.dropdown-menu hr { border: none; border-top: 1px solid #eee; margin: 6px 0; }
+
+/* Print rules: only show print-view */
+@media print {
+  .app-header, .container, .footer { display: none !important; }
+  .print-view, .contract-view { display: none !important; }
+  body.printing-estimate .print-view { display: block !important; }
+  body.printing-contract .contract-view { display: block !important; }
+  /* Ensure print font sizing matches screen for consistent Save as PDF */
+  .print-view { font-size: 15pt; }
+  /* Increase brand logo size by 50% for printed Estimate */
+  .print-view .brand-logo { height: 144px; max-width: 660px; }
+  body.printing-estimate.estimate-compact .print-view { font-size: 10.2pt !important; }
+  body.printing-estimate.estimate-compact .print-view .brand-logo { height: 98px !important; max-width: 449px !important; }
+  body.printing-estimate.estimate-compact .print-table .station-title-row { font-size: 10.88pt !important; }
+  body.printing-estimate.estimate-compact .print-table th { padding: 5px !important; }
+  body.printing-estimate.estimate-compact .print-table td { padding: 3px 6px !important; line-height: 1.2 !important; }
+  body.printing-estimate.estimate-compact .print-table .station-divider td { height: 4px !important; }
+  .print-view .print-header .company { font-size: 15pt; line-height: 1.4; }
+  .print-view .print-client .full span:last-child { font-size: inherit; }
+  /* Keep station blocks and totals together in Chrome print */
+  .print-table tbody.keep-together { break-inside: avoid; page-break-inside: avoid; }
+  .print-totals, .print-totals tbody, .print-totals tr { break-inside: avoid; page-break-inside: avoid; }
+  body.printing-estimate.hide-print-total .print-totals tr.grand { display: none !important; }
+  body.printing-estimate.hide-print-total .print-totals { display: none !important; }
+  /* Fixed page number overlay for print; disable Chrome headers/footers */
+  .page-number { position: fixed; bottom: 10mm; right: 10mm; color: #555; font-size: 11pt; z-index: 9999; }
+  .page-number::after { content: counter(page) " / " counter(pages); }
+  /* Chrome Print: normalize Contract headers and add inner spacing */
+  .contract-view .contract-page { border: none !important; border-radius: 0 !important; margin: 0 !important; padding: 12px 12px 12px 24px !important; }
+  .contract-view .station-title { text-align: center !important; font-weight: 700 !important; }
+  .contract-view .menu-items { margin-left: 1em !important; }
+  .contract-view .print-title { font-size: 36pt !important; font-weight: 800 !important; }
+  .contract-view .print-header .company { font-size: 15pt !important; line-height: 1.4 !important; }
+  .contract-view:not(.pdf-plus) .print-client .full span:last-child { font-size: 16pt !important; }
+  .contract-view .brand-logo { height: 108px !important; max-width: 493px !important; }
+  body.printing-contract.contract-compact .contract-view { font-size: 10.2pt !important; }
+  body.printing-contract.contract-compact .contract-view .print-title { font-size: 15.12pt !important; }
+  body.printing-contract.contract-compact .contract-view .print-header .company { font-size: 10.2pt !important; line-height: 1.35 !important; }
+  body.printing-contract.contract-compact .contract-view .print-client { font-size: 10.2pt !important; }
+  body.printing-contract.contract-compact .contract-view .print-client span { font-size: 10.2pt !important; }
+  body.printing-contract.contract-compact .contract-view .print-client .full span:last-child { font-size: 10.2pt !important; }
+  body.printing-contract.contract-compact .contract-view .brand-logo { height: 74px !important; max-width: 335px !important; }
+  /* First page in Chrome Print: keep same sizes as other pages */
+  .contract-view .contract-page:first-of-type .print-title { font-size: 36pt !important; font-weight: 800 !important; }
+  .contract-view .contract-page:first-of-type .print-header .company { font-size: 15pt !important; line-height: 1.4 !important; }
+  #contractView .contract-page:first-of-type { font-size: 15pt !important; margin: 0 !important; padding: 12px 12px 12px 24px !important; border-width: 0 !important; }
+  #contractView .contract-page:first-of-type .print-header .brand { font-size: inherit !important; }
+  #contractView .contract-page:first-of-type .brand-logo { height: 108px !important; }
+  body.printing-contract.contract-compact #contractView .contract-page:first-of-type .brand-logo { height: 74px !important; max-width: 335px !important; }
+  body.printing-contract.contract-compact .contract-view .contract-page:first-of-type .print-title { font-size: 15.12pt !important; }
+  body.printing-contract.contract-compact .contract-view .contract-page:first-of-type .print-header .company { font-size: 10.2pt !important; line-height: 1.35 !important; }
+  body.printing-contract.contract-compact #contractView .contract-page:first-of-type { font-size: 10.2pt !important; }
+  /* Compact estimate: make company header and client address match base font */
+  body.printing-estimate.estimate-compact .print-view .print-header .company { font-size: 10.2pt !important; line-height: 1.35 !important; }
+  body.printing-estimate.estimate-compact .print-view .print-client .full span:last-child { font-size: 10.2pt !important; }
+}
+
+/* PDF page setup */
+@page {
+  size: Letter;
+  margin: 10mm;
+}
+
+/* Contract layout */
+.contract-view { display: none; padding: 12px; color: #111827; font-family: Calibri, "Segoe UI", Tahoma, sans-serif; font-size: 15pt; }
+/* Contract export: increase all fonts by +10pt (15pt -> 25pt) */
+.contract-view.pdf-plus { font-size: 25pt; line-height: 1.45; }
+.contract-view.pdf-plus .contract-page { font-size: 25pt !important; }
+.contract-view.pdf-plus .print-client { font-size: 25pt !important; }
+.contract-view.pdf-plus .print-client span { font-size: 25pt !important; }
+.contract-view.pdf-plus .print-header .company,
+.contract-view.pdf-plus .print-header .brand,
+.contract-view.pdf-plus .print-title,
+.contract-view.pdf-plus .contract-meta,
+.contract-view.pdf-plus #contractMenu,
+.contract-view.pdf-plus .station-title,
+.contract-view.pdf-plus .menu-items,
+.contract-view.pdf-plus .terms,
+.contract-view.pdf-plus .pricing,
+.contract-view.pdf-plus .notes,
+.contract-view.pdf-plus .footer-sign,
+.contract-view.pdf-plus .rooms-line { font-size: 25pt !important; }
+/* Increase contract logo size by +60% during export */
+.contract-view.pdf-plus .brand-logo { height: 154px; max-width: 704px; }
+.contract-view.pdf-plus .contract-page:first-of-type .brand-logo { height: 154px !important; max-width: 704px !important; }
+
+/* Increase fonts by 3pt on the first page of Contract in PDF mode */
+.contract-view.pdf-plus .contract-page:first-of-type,
+.contract-view.pdf-plus .contract-page:first-of-type .print-client,
+.contract-view.pdf-plus .contract-page:first-of-type .print-client span,
+.contract-view.pdf-plus .contract-page:first-of-type .print-header .company,
+.contract-view.pdf-plus .contract-page:first-of-type .print-header .brand,
+.contract-view.pdf-plus .contract-page:first-of-type .print-title,
+.contract-view.pdf-plus .contract-page:first-of-type .contract-meta,
+.contract-view.pdf-plus .contract-page:first-of-type #contractMenu,
+.contract-view.pdf-plus .contract-page:first-of-type .station-title,
+.contract-view.pdf-plus .contract-page:first-of-type .menu-items,
+.contract-view.pdf-plus .contract-page:first-of-type .terms,
+.contract-view.pdf-plus .contract-page:first-of-type .pricing,
+.contract-view.pdf-plus .contract-page:first-of-type .notes,
+.contract-view.pdf-plus .contract-page:first-of-type .footer-sign,
+.contract-view.pdf-plus .contract-page:first-of-type .rooms-line { font-size: 28pt !important; }
+.contract-view.pdf-plus .contract-page:first-of-type { margin: 4px !important; }
+.contract-page { border: 4px solid #ef4444; border-radius: 12px; padding: 16px; margin: 12px; }
+.contract-page + .contract-page { page-break-before: always; }
+/* Multi-event estimate pages */
+.estimate-page + .estimate-page { page-break-before: always; }
+.contract-meta { margin: 16px 0; font-weight: 600; }
+.terms { font-size: 1em; line-height: 1.5; color: #1f2937; }
+.terms li { margin-bottom: 6px; }
+.terms ul { margin: 6px 0 6px 18px; list-style: disc; }
+.terms ul li { margin-bottom: 4px; }
+.signatures { display: flex; justify-content: space-between; gap: 16px; margin-top: 16px; }
+.rooms-line { margin-top: 14px; font-size: 1em; color: #1f2937; }
+.underline { text-decoration: underline; text-decoration-thickness: 1px; }
+.footer-sign { display: flex; justify-content: space-between; margin-top: 24px; color: #374151; }
+.pricing { margin-top: 16px; font-size: 1em; }
+.pricing .amount { font-weight: 700; margin-left: 6px; }
+
+/* PDF generation progress overlay */
+.pdf-progress { position: fixed; inset: 0; background: rgba(17,24,39,0.35); display: none; align-items: center; justify-content: center; z-index: 9999; }
+.pdf-progress-inner { background: #111827; color: #fff; padding: 12px 16px; border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.3); font-size: 14px; }
+.pricing .grand { font-size: 1.2em; font-weight: 800; margin-top: 8px; }
+.post-notes .grand { font-size: 1.2em; font-weight: 800; margin-top: 8px; }
+
+/* Saved Contract PDF: center and enlarge station titles by +6pt */
+.contract-view.pdf-plus .station-title { text-align: center !important; font-weight: 700 !important; font-size: 31pt !important; }
+/* Saved Contract PDF: indent items under station titles one tab to the right */
+.contract-view.pdf-plus .menu-items { margin-left: 1em !important; }
+/* Saved Contract PDF: make Event Contract title bigger and bold */
+.contract-view.pdf-plus .print-title { font-size: 36pt !important; font-weight: 800 !important; }
+/* Saved Contract PDF: shrink top address to 6pt for compact header */
+.contract-view.pdf-plus .contract-page .print-header .company { font-size: 21pt !important; line-height: 1.4 !important; }
+/* Saved Contract PDF: enlarge Peri Peri logo by 40% */
+.contract-view.pdf-plus .brand-logo { height: 216px !important; max-width: 986px !important; }
+.contract-view.pdf-plus .contract-page:first-of-type .brand-logo { height: 216px !important; max-width: 986px !important; }
+/* Saved Contract PDF: normalize header sizes across all pages */
+.contract-view.pdf-plus .contract-page:first-of-type .print-title { font-size: 36pt !important; font-weight: 800 !important; }
+.contract-view.pdf-plus .contract-page:first-of-type .print-client,
+.contract-view.pdf-plus .contract-page:first-of-type .print-client span { font-size: 25pt !important; }
+.contract-view.pdf-plus .contract-page:first-of-type .print-header .company { font-size: 21pt !important; line-height: 1.4 !important; }
+/* Hide DOM footer signatures in PDF export; footers are stamped into PDF pages */
+.contract-view.pdf-plus .footer-sign { display: none !important; }
+
+/* Contract export (saved PDF): remove page borders and use full width */
+.contract-view.pdf-plus .contract-page { border: none !important; border-radius: 0 !important; margin: 0 !important; padding: 8px !important; }
+/* Saved Contract PDF: add left padding for inner spacing on all pages */
+.contract-view.pdf-plus .contract-page { padding-left: 20px !important; }
+.notes { margin-top: 18px; font-size: 1em; color: #1f2937; }
+.notes .notice { color: #b91c1c; font-weight: 600; margin-top: 6px; }
+.station-title { color: #b91c1c; font-weight: 700; margin-top: 14px; }
+.menu-items { margin: 4px 0 10px 16px; color: #374151; }
+.menu-items div { margin: 2px 0; }
+
+/* Enlarge wording on Pages 2 and 3 for readability */
+#contractView .contract-page:nth-of-type(2),
+#contractView .contract-page:nth-of-type(3) {
+  font-size: 15pt;
+}
+
+/* Tighten spacing on first contract page to prevent overflow */
+#contractView .contract-page:first-of-type { font-size: 13pt; margin: 4px; padding: 4px; border-width: 1px; }
+#contractView .contract-page:first-of-type { display: flex; flex-direction: column; }
+#contractView .contract-page:first-of-type .terms { flex: 1 1 auto; }
+#contractView .contract-page:first-of-type .signatures { margin-top: auto; }
+#contractView .contract-page:first-of-type .print-header { margin-bottom: 2px; }
+#contractView .contract-page:first-of-type .print-header .brand { font-size: 0.9em; }
+#contractView .contract-page:first-of-type .brand-logo { height: 55px; }
+#contractView .contract-page:first-of-type .print-header .company { font-size: 10.5px; }
+#contractView .contract-page:first-of-type .print-title { margin: 1px 0 2px; }
+#contractView .contract-page:first-of-type .print-client { gap: 1px; margin-bottom: 4px; }
+#contractView .contract-page:first-of-type .print-client span:first-child { margin-right: 3px; }
+#contractView .contract-page:first-of-type .terms { font-size: 0.9em; line-height: 1.13; }
+#contractView .contract-page:first-of-type .terms li { margin-bottom: 1px; }
+#contractView .contract-page:first-of-type .terms ul { margin: 0 0 0 10px; }
+#contractView .contract-page:first-of-type .rooms-line { margin-top: 3px; }
+#contractView .contract-page:first-of-type .footer-sign { margin-top: 4px; }
+#contractView .contract-page { page-break-inside: avoid; }
+
+/* Modal styles */
+.modal { position: fixed; inset: 0; background: rgba(0,0,0,0.4); display: none; align-items: center; justify-content: center; padding: 16px; }
+.modal[aria-hidden="false"] { display: flex; }
+.modal-content { background: #fff; border-radius: 10px; width: 800px; max-width: 95vw; padding: 16px; box-shadow: 0 10px 20px rgba(0,0,0,0.15); }
+.modal-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.modal-body { display: grid; grid-template-columns: 1fr; gap: 12px; }
+.modal-body textarea { width: 100%; font-family: Calibri, "Segoe UI", Tahoma, sans-serif; font-size: 11pt; }
+.modal-footer { display: flex; justify-content: flex-end; gap: 8px; margin-top: 12px; }
+/* Station labor controls inline layout */
+.station .station-labor {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+  flex-wrap: nowrap;
+}
+.station .station-labor label {
+  display: inline-block;
+  font-weight: 600;
+  margin-right: 4px;
+}
+.station .station-labor input[type="number"] {
+  max-width: 110px;
+}
+/* Keep totals table from splitting across pages when printing */
+@media print {
+  .print-totals,
+  .print-totals tbody,
+  .print-totals tr,
+  .keep-together {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  /* Ensure each generated estimate page starts on a new page */
+  .estimate-page {
+    break-after: page;
+    page-break-after: always;
+  }
+  /* Make station titles 4pt larger in printed estimate */
+  .print-table .station-title-row { font-size: 16pt; }
+}
+.items-table input.item-name { width: 100%; }
+.items-table input.item-price { width: 10ch; text-align: right; }
+.items-table input.item-labor { width: 8ch; text-align: right; }
+
+/* Hide number input spinners globally */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+/* Hide number input spinners for item price fields (enter manually) */
+/* Chrome, Edge (Chromium), Safari */
+.items-table input.item-price::-webkit-outer-spin-button,
+.items-table input.item-price::-webkit-inner-spin-button,
+.items-table input.item-labor::-webkit-outer-spin-button,
+.items-table input.item-labor::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+.items-table input.item-price,
+.items-table input.item-labor {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* Hide number spinners for fees inputs: chafing, travel, kitchen */
+#chafingCharges::-webkit-outer-spin-button,
+#chafingCharges::-webkit-inner-spin-button,
+#travelCharges::-webkit-outer-spin-button,
+#travelCharges::-webkit-inner-spin-button,
+#kitchenOnWheels::-webkit-outer-spin-button,
+#kitchenOnWheels::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+#chafingCharges,
+#travelCharges,
+#kitchenOnWheels {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.special-notes-input { margin-top: 12px; }
+.special-notes {
+  margin-top: 8px;
+  padding: 8px 10px;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  color: var(--muted);
+  display: none;
+}
+.print-totals .note td {
+  font-style: italic;
+  color: #374151;
+}
+.custom-charges { margin-top: 8px; display: grid; gap: 8px; }
+.custom-charges-header { font-weight: 700; color: #374151; }
+.custom-charge-row { display: grid; grid-template-columns: 1fr 140px 140px auto; gap: 8px; align-items: start; }
+.custom-charge-row textarea { width: 100%; min-height: 64px; resize: vertical; }
+.custom-charge-row input[type="number"] { width: 100%; text-align: right; }
+.custom-charge-row .taxable { display: inline-flex; align-items: center; gap: 6px; color: #374151; }

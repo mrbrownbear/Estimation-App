@@ -1,0 +1,326 @@
+{
+  "client": {
+    "name": "Romit & Avani",
+    "planner": "Sumi",
+    "guests": 250,
+    "address": "Crown Plaza Norcross",
+    "events": [
+      {
+        "id": "1762981096236_uzvo",
+        "date": "2026-05-23",
+        "guests": 250,
+        "fees": {
+          "labor": 250,
+          "chafing": 1550,
+          "travel": 650,
+          "kitchen": 2200
+        },
+        "type": "Sangeet",
+        "address": "Crown Plaza Norcross",
+        "timing": "6:00 pm - 9:00 pm"
+      },
+      {
+        "id": "1762981125309_ccp9",
+        "date": "2026-05-24",
+        "guests": 400,
+        "fees": {
+          "labor": 0,
+          "chafing": 1850,
+          "travel": 650,
+          "kitchen": 2200
+        },
+        "type": "Reception",
+        "address": "Crown Plaza Norcross",
+        "timing": "6:00 pm - 10:30 pm"
+      }
+    ]
+  },
+  "stations": [
+    {
+      "name": "Mediterranean Station",
+      "eventId": "1762981096236_uzvo",
+      "laborCount": 2,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Joojeh Kabob",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Falafel",
+          "price": 3,
+          "labor": 0
+        },
+        {
+          "name": "Red pepper Hummus, Tatziki,",
+          "price": 2,
+          "labor": 0
+        },
+        {
+          "name": "Fava Bean Dill rice",
+          "price": 3,
+          "labor": 1
+        }
+      ]
+    },
+    {
+      "name": "Chinese Station",
+      "eventId": "1762981096236_uzvo",
+      "laborCount": 2,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Gobi Manchurian",
+          "price": 3,
+          "labor": 1
+        },
+        {
+          "name": "Hakka Noodles",
+          "price": 3,
+          "labor": 1
+        },
+        {
+          "name": "Fried Rice",
+          "price": 3,
+          "labor": 0
+        },
+        {
+          "name": "Chili Chicken",
+          "price": 4
+        }
+      ]
+    },
+    {
+      "name": "Chaat",
+      "eventId": "1762981096236_uzvo",
+      "laborCount": 4,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Pav Bhaji Live",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Pani Puri 3 Flavors",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Dahi Papadi Chaat",
+          "price": 3,
+          "labor": 2
+        }
+      ]
+    },
+    {
+      "name": "Mexican Station",
+      "eventId": "1762981096236_uzvo",
+      "laborCount": 3,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Veg Quesadilla",
+          "price": 4,
+          "labor": 2
+        },
+        {
+          "name": "Mexicna Spring roll",
+          "price": 3
+        },
+        {
+          "name": "Chips, Salsa and Queso",
+          "price": 3,
+          "labor": 1
+        }
+      ]
+    },
+    {
+      "name": "Dessert",
+      "eventId": "1762981096236_uzvo",
+      "laborCount": 2,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Falooda Station with 4 Flavors(vanilla, Mango, strawberry Cheesecake, Sea Salt caramel with Topping",
+          "price": 6,
+          "labor": 2
+        },
+        {
+          "name": "",
+          "price": 0
+        }
+      ]
+    },
+    {
+      "name": "Appetizer",
+      "eventId": "1762981125309_ccp9",
+      "laborCount": 15,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Wonton Paneer Taco",
+          "price": 3,
+          "labor": 4
+        },
+        {
+          "name": "Steamed Chicken Momo",
+          "price": 3,
+          "labor": 1
+        },
+        {
+          "name": "Shrimp Tempura Bao Bun",
+          "price": 4,
+          "labor": 2
+        },
+        {
+          "name": "Veg Sushi Bai Bun",
+          "price": 4,
+          "labor": 2
+        },
+        {
+          "name": "Dahi Vada Shots",
+          "price": 3,
+          "labor": 2
+        },
+        {
+          "name": "Mango pineapple Papadi Chaat",
+          "price": 4,
+          "labor": 4
+        }
+      ]
+    },
+    {
+      "name": "Runners and Chefs",
+      "eventId": "1762981096236_uzvo",
+      "laborCount": 5,
+      "laborCost": 250,
+      "hideFromPrint": true,
+      "items": [
+        {
+          "name": "Runners",
+          "price": 0,
+          "labor": 2
+        },
+        {
+          "name": "Food Truck Cooks",
+          "price": 0,
+          "labor": 3
+        }
+      ]
+    },
+    {
+      "name": "Main Course 2 buffets",
+      "eventId": "1762981125309_ccp9",
+      "laborCount": 0,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Malai Kofta",
+          "price": 4,
+          "labor": 0
+        },
+        {
+          "name": "Dal Bhukara",
+          "price": 4,
+          "labor": 0
+        },
+        {
+          "name": "Old Delhi Butter chicken",
+          "price": 4,
+          "labor": 0
+        },
+        {
+          "name": "Dhaba Chicken Curry",
+          "price": 4,
+          "labor": 0
+        },
+        {
+          "name": "Rice",
+          "price": 2,
+          "labor": 0
+        },
+        {
+          "name": "Rumlai Roti",
+          "price": 3,
+          "labor": 0
+        },
+        {
+          "name": "Salad, Papad, Pickle, Raita",
+          "price": 4,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Fruit Station",
+      "eventId": "1762981125309_ccp9",
+      "laborCount": 0,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Pineapple, Strawberries, Water Melon, Papaya with 4 masalas",
+          "price": 6,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Dessert Station",
+      "eventId": "1762981125309_ccp9",
+      "laborCount": 0,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Paan and Rose Coconut Ladoo",
+          "price": 4,
+          "labor": 0
+        },
+        {
+          "name": "Live Jalebi Station",
+          "price": 6,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Runners and Cooks",
+      "eventId": "1762981125309_ccp9",
+      "laborCount": 3,
+      "laborCost": 250,
+      "hideFromPrint": true,
+      "items": [
+        {
+          "name": "Runners",
+          "price": 0,
+          "labor": 1
+        },
+        {
+          "name": "Food Truck cooks",
+          "price": 0,
+          "labor": 2
+        }
+      ]
+    }
+  ],
+  "autoPricePerPerson": false,
+  "pricePerPerson": 0,
+  "fees": {
+    "labor": 0,
+    "chafing": 0,
+    "travel": 0,
+    "kitchen": 0
+  },
+  "taxRate": 0.06,
+  "activeEventId": "1762981096236_uzvo"
+}

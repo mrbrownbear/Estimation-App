@@ -1,0 +1,105 @@
+{
+  "client": {
+    "name": "Archi & Ronak",
+    "planner": "Bijal Kumar Patel (father) 859-940-2950",
+    "guests": 0,
+    "address": "",
+    "events": [
+      {
+        "id": "1763516830162_3w6o",
+        "date": "2026-07-25",
+        "guests": 450,
+        "fees": {
+          "labor": 0,
+          "chafing": 0,
+          "travel": 0,
+          "kitchen": 0
+        },
+        "type": "Pre Wedding",
+        "timing": "5:00 pm -10:00 pm",
+        "address": "1801 Newtown Pike\nLexington, KY 40511"
+      }
+    ],
+    "phone": "859-940-2950"
+  },
+  "stations": [
+    {
+      "name": "Mocktail Station",
+      "eventId": "1763516830162_3w6o",
+      "laborCount": 2,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Raspberry Lycheetini",
+          "price": 2,
+          "labor": 2
+        },
+        {
+          "name": "Mango Mojito",
+          "price": 2,
+          "labor": 0
+        },
+        {
+          "name": "Pina Colada",
+          "price": 2,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Mediterranean Station",
+      "eventId": "1763516830162_3w6o",
+      "laborCount": 0,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "",
+          "price": 0,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Mexican Station",
+      "eventId": "1763516830162_3w6o",
+      "laborCount": 0,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "",
+          "price": 0,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Thai Station",
+      "eventId": "1763516830162_3w6o",
+      "laborCount": 0,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": []
+    },
+    {
+      "name": "Soup Station",
+      "eventId": "1763516830162_3w6o",
+      "laborCount": 0,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": []
+    }
+  ],
+  "autoPricePerPerson": false,
+  "pricePerPerson": 0,
+  "fees": {
+    "labor": 0,
+    "chafing": 0,
+    "travel": 0,
+    "kitchen": 0
+  },
+  "taxRate": 0.06,
+  "activeEventId": "1763516830162_3w6o"
+}

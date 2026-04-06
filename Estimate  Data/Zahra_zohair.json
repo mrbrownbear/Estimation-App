@@ -1,0 +1,250 @@
+{
+  "client": {
+    "name": "Zahra & zohair",
+    "planner": "Non",
+    "guests": 300,
+    "address": "Puritan Mill",
+    "events": [
+      {
+        "id": "1762905620127_imt3",
+        "date": "2026-09-18",
+        "guests": 300,
+        "fees": {
+          "labor": 250,
+          "chafing": 2200,
+          "travel": 850,
+          "kitchen": 2200
+        },
+        "type": "Sangeet",
+        "address": "Puratin Mill",
+        "timing": "6:00 pm - 10:30 pm"
+      },
+      {
+        "id": "1762906106787_bwqw",
+        "date": "2026-09-19",
+        "guests": 300,
+        "fees": {
+          "labor": 250,
+          "chafing": 1800,
+          "travel": 850,
+          "kitchen": 0
+        },
+        "type": "Reception",
+        "address": "Fox",
+        "timing": "6:00 pm -10:30 pm"
+      }
+    ]
+  },
+  "stations": [
+    {
+      "name": "Kabob Station",
+      "eventId": "1762905620127_imt3",
+      "laborCount": 0,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Achari Chicken",
+          "price": 4
+        },
+        {
+          "name": "Lamb Chops (300 pcs)",
+          "price": 8
+        },
+        {
+          "name": "Peri Peri Wings 3 flavors",
+          "price": 6
+        }
+      ]
+    },
+    {
+      "name": "Mexican Station",
+      "eventId": "1762905620127_imt3",
+      "laborCount": 0,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Veg Spring Roll",
+          "price": 3
+        },
+        {
+          "name": "Samosa Chaat Quesadilla",
+          "price": 4
+        },
+        {
+          "name": "Fajita station with grill chicken, Mexican Rice",
+          "price": 10
+        },
+        {
+          "name": "Masala Beans, Sour Cream, flour Tortilla, Green and Red Salsa",
+          "price": 0
+        }
+      ]
+    },
+    {
+      "name": "Chaat Station",
+      "eventId": "1762905620127_imt3",
+      "laborCount": 0,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Pani Puri with 3 Flavors",
+          "price": 4
+        },
+        {
+          "name": "Mango Pineapple Papadi Chaat",
+          "price": 4
+        },
+        {
+          "name": "Dahi Paneer Tiiki Chaat",
+          "price": 4
+        }
+      ]
+    },
+    {
+      "name": "Indo Chinese Station",
+      "eventId": "1762905620127_imt3",
+      "laborCount": 0,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Chili Chicken",
+          "price": 4
+        },
+        {
+          "name": "Hakka Noodles",
+          "price": 3
+        },
+        {
+          "name": "Chicken Momo",
+          "price": 3
+        }
+      ]
+    },
+    {
+      "name": "Dessert",
+      "eventId": "1762905620127_imt3",
+      "laborCount": 0,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Falooda Station with 4 Flavors and Toppings",
+          "price": 8
+        },
+        {
+          "name": "Live Gajar Halwa with 3 flavors",
+          "price": 4
+        }
+      ]
+    },
+    {
+      "name": "Appetizer",
+      "eventId": "1762906106787_bwqw",
+      "laborCount": 0,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Chicken Angare Kabob",
+          "price": 4
+        },
+        {
+          "name": "Amritsari Fish Fry",
+          "price": 6
+        },
+        {
+          "name": "Wonton Paneer Taco",
+          "price": 3
+        },
+        {
+          "name": "Mac Aloo Tikki Slider",
+          "price": 5
+        },
+        {
+          "name": "Dahi Bhalla Shots",
+          "price": 4
+        }
+      ]
+    },
+    {
+      "name": "Main Course",
+      "eventId": "1762906106787_bwqw",
+      "laborCount": 0,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Paneer Masala",
+          "price": 4
+        },
+        {
+          "name": "Masala Chicken",
+          "price": 4
+        },
+        {
+          "name": "Tawa Shrimp",
+          "price": 6
+        },
+        {
+          "name": "Mutton Biryani",
+          "price": 5
+        },
+        {
+          "name": "Ra-Ra Goat Curry",
+          "price": 7
+        },
+        {
+          "name": "Naan Assorted",
+          "price": 4
+        },
+        {
+          "name": "Rice",
+          "price": 2
+        },
+        {
+          "name": "Salad, Raita, Pickle, Papad",
+          "price": 4
+        }
+      ]
+    },
+    {
+      "name": "Dessert",
+      "eventId": "1762906106787_bwqw",
+      "laborCount": 0,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Paan Station Live with Mukhwas and Paan Laddoos",
+          "price": 9
+        },
+        {
+          "name": "Kulfi  bars with 4 flavors",
+          "price": 6
+        },
+        {
+          "name": "3 Types of assorted Dessert shots",
+          "price": 9
+        },
+        {
+          "name": "",
+          "price": 0
+        }
+      ]
+    }
+  ],
+  "autoPricePerPerson": false,
+  "pricePerPerson": 0,
+  "fees": {
+    "labor": 0,
+    "chafing": 0,
+    "travel": 0,
+    "kitchen": 0
+  },
+  "taxRate": 0.06,
+  "activeEventId": ""
+}

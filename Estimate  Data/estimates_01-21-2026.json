@@ -1,0 +1,6838 @@
+[
+  {
+    "id": "1768917836709",
+    "client": {
+      "name": "Devika & Adil",
+      "planner": "non",
+      "date": "2026-06-06",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1768917150222_kmtw",
+          "date": "2026-06-06",
+          "guests": 230,
+          "fees": {
+            "labor": 0,
+            "chafing": 0,
+            "travel": 0,
+            "kitchen": 0,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Reception",
+          "timing": "",
+          "address": "103 West Paces Ferry Rd Atlanta",
+          "note": "",
+          "customNote": "",
+          "customCharges": []
+        }
+      ],
+      "specialRequest": "No Fish items requested"
+    },
+    "stations": [
+      {
+        "name": "Appetizer 4.00 pm - 5.30 pm",
+        "eventId": "1768917150222_kmtw",
+        "laborCount": 7,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Heart Idli with Sambhar",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Chicken Angare Kabob",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Pani Puri with 3 flavors",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Lamb Boti Kabob",
+            "price": 6,
+            "labor": 1
+          },
+          {
+            "name": "Pav Bhaji Sliders",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Chicken Shawarma Wrap",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Maggi Balls",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Live Mocktail Bar with 2 Bar tenders",
+        "eventId": "1768917150222_kmtw",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Raspberry Lycheetini",
+            "price": 1.5,
+            "labor": 1
+          },
+          {
+            "name": "Watermelon lime Rita",
+            "price": 1.5,
+            "labor": 1
+          },
+          {
+            "name": "Mango Mojito",
+            "price": 1.5,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dinner Buffet  6.30 pm - 8:00 pm",
+        "eventId": "1768917150222_kmtw",
+        "laborCount": 0,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Dal Makhni",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Saag Paneer",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Butter Chicken",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Dhaba Goat curry",
+            "price": 6,
+            "labor": 0
+          },
+          {
+            "name": "Veg Biryani Hyderabadi",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Bisibelebath",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Rice",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Naan Butter",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Rumlai Roti",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Salad (beetroot, cucumber, tomato, onion), Raita, Paapd, Pickle",
+            "price": 5,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "eventId": "1768917150222_kmtw",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Churros with 3 toppings",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Gulab jamun Rabdi Shots",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Ras Malai Tres Leeches Shots",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Cook and Runners",
+        "eventId": "1768917150222_kmtw",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "Cooks",
+            "price": 0,
+            "labor": 2
+          },
+          {
+            "name": "Runner",
+            "price": 0,
+            "labor": 3
+          }
+        ]
+      },
+      {
+        "name": "Bussers and cutlery Charges",
+        "eventId": "1768917150222_kmtw",
+        "laborCount": 12,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Cutlery charges Dinner plates, Appetizer Plates, spoons, forks, water goblets",
+            "price": 14,
+            "labor": 0
+          },
+          {
+            "name": "Bussers and Dishwashers",
+            "price": 0,
+            "labor": 12
+          },
+          {
+            "name": "Trash Removal services",
+            "price": 3,
+            "labor": 0
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1768917150222_kmtw",
+    "paymentMade": 0,
+    "createdAt": 1768917836709
+  },
+  {
+    "id": "1765846893077",
+    "client": {
+      "name": "Raveena & Ishaan",
+      "planner": "Nadira",
+      "guests": 0,
+      "address": "Summerour Studio",
+      "events": [
+        {
+          "id": "1762881401217_4w56",
+          "date": "2026-02-28",
+          "guests": 230,
+          "fees": {
+            "labor": 250,
+            "chafing": 1850,
+            "travel": 1100,
+            "kitchen": 2200,
+            "custom": 0,
+            "_customTotals": {
+              "total": 3500,
+              "taxableTotal": 0
+            }
+          },
+          "type": "Reception",
+          "address": "Summerour Studio",
+          "customNote": "",
+          "customCharges": [
+            {
+              "note": "Lighted counters Rose gold",
+              "amount": 3500,
+              "taxable": false
+            }
+          ],
+          "timing": "6:00 pm -9:00 pm",
+          "note": ""
+        }
+      ]
+    },
+    "stations": [
+      {
+        "name": "Cocktail",
+        "eventId": "1762881401217_4w56",
+        "laborCount": 0,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Veg Samosa Chaat",
+            "price": 4
+          },
+          {
+            "name": "Mexican Veg Rolls",
+            "price": 3
+          },
+          {
+            "name": "Pav bhaji Empanadas",
+            "price": 3
+          },
+          {
+            "name": "Maggi Balls",
+            "price": 3
+          },
+          {
+            "name": "Lasooni Chicken Kabobs",
+            "price": 4
+          },
+          {
+            "name": "Dahi Paneer tikki with pineapple Chutney",
+            "price": 4
+          },
+          {
+            "name": "Chicken Slider",
+            "price": 4
+          },
+          {
+            "name": "Veg Sushi Bao Bun",
+            "price": 4
+          }
+        ]
+      },
+      {
+        "name": "Main Course",
+        "eventId": "1762881401217_4w56",
+        "laborCount": 0,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Kaju Methi Malai",
+            "price": 4
+          },
+          {
+            "name": "Veg Tawa Fry",
+            "price": 4
+          },
+          {
+            "name": "Dal Bhukara",
+            "price": 4
+          },
+          {
+            "name": "Butter Chicken",
+            "price": 4
+          },
+          {
+            "name": "Assorted Naan",
+            "price": 3
+          },
+          {
+            "name": "Jeera Rice",
+            "price": 2
+          },
+          {
+            "name": "Salad, Papad, Raita, Pickle",
+            "price": 4
+          }
+        ]
+      },
+      {
+        "name": "Dessert  Station",
+        "eventId": "1762881401217_4w56",
+        "laborCount": 16,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Live Gajar Halwa with 3 Flavor",
+            "price": 5,
+            "labor": 16
+          },
+          {
+            "name": "Lemon Cheesecake Shots",
+            "price": 4
+          },
+          {
+            "name": "Paan Mukhwas Station",
+            "price": 3
+          },
+          {
+            "name": "Kulfi Cart with Mango, Malai, Oreo and Pina colada",
+            "price": 6
+          },
+          {
+            "name": "Live Jalebi",
+            "price": 5,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Cutlery and Bussers",
+        "eventId": "1762881401217_4w56",
+        "laborCount": 12,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Cutlery charges Dinner plates, Appetizer Plates, spoons, forks, water goblets",
+            "price": 14,
+            "labor": 0
+          },
+          {
+            "name": "Bussers, dish washers, Manager",
+            "price": 0,
+            "labor": 10
+          },
+          {
+            "name": "Trash removal",
+            "price": 3,
+            "labor": 2
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1762881401217_4w56",
+    "paymentMade": 10450,
+    "createdAt": 1765849203810
+  },
+  {
+    "id": "1768865607110",
+    "client": {
+      "name": "Shivani and Ankit",
+      "planner": "Nilima",
+      "date": "2026-07-11",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1768865583610_lhd3",
+          "date": "2026-07-11",
+          "guests": 450,
+          "fees": {
+            "labor": 0,
+            "chafing": 2200,
+            "travel": 650,
+            "kitchen": 3200,
+            "_customTotals": {
+              "total": 1600,
+              "taxableTotal": 1600
+            },
+            "custom": 0,
+            "discountNote": "Crimpsonblueevents",
+            "discount": 2000,
+            "_discountAmount": 2000
+          },
+          "type": "Reception",
+          "timing": "6:00 -10:00 pm",
+          "address": "Chateau Elan",
+          "note": "Lighted Counters Extra base package $4500 and Premium $5500",
+          "customNote": "",
+          "customCharges": [
+            {
+              "note": "Lamb Chops 200 pcs passed",
+              "amount": 1600,
+              "taxable": true
+            }
+          ],
+          "discount": {
+            "description": "Crimpsonblueevents Discount",
+            "amount": 2000
+          }
+        },
+        {
+          "id": "1768999576429_5gif",
+          "date": "2026-07-10",
+          "guests": 450,
+          "fees": {
+            "labor": 0,
+            "chafing": 1500,
+            "travel": 650,
+            "kitchen": 3200,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0,
+            "discountNote": "Crimpsonblueevents",
+            "discount": 2000,
+            "_discountAmount": 2000
+          },
+          "type": "Sangeet",
+          "timing": "6:00 -10:00 pm",
+          "address": "Chateau Elan",
+          "note": "Lighted Counters Extra base package $4500 and Premium $5500",
+          "customNote": "",
+          "customCharges": [],
+          "discount": {
+            "description": "Crimsonblueevents Discount",
+            "amount": 2000
+          }
+        }
+      ]
+    },
+    "stations": [
+      {
+        "name": "Appetizer",
+        "eventId": "1768865583610_lhd3",
+        "laborCount": 13,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Mexican Spring Roll",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Wonton Paneer Taco",
+            "price": 3,
+            "labor": 5
+          },
+          {
+            "name": "Pav bhaji Empanadas",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Tandoori mint and  paneer",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Chicken Tikka",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Mint Chicken",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Dinner 2 Buffets",
+        "eventId": "1768865583610_lhd3",
+        "laborCount": 0,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Malai Kofta",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Palak Paneer",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Dal Bhukara",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Old Delhi Butter chicken",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Butter and Garlic Naan",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Rice",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Salad, Papad, Raita, Pickle",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Cooks and runner",
+        "eventId": "1768865583610_lhd3",
+        "laborCount": 11,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "Cooks",
+            "price": 0,
+            "labor": 3
+          },
+          {
+            "name": "Runners",
+            "price": 0,
+            "labor": 8
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "eventId": "1768865583610_lhd3",
+        "laborCount": 0,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "3 dessert shots TBD",
+            "price": 9,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Gujrati Station",
+        "eventId": "1768999576429_5gif",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Papdi No Lot with 2 flavors dipping sauce",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Chili Mogo",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Daabeli Sandwich",
+            "price": 4,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Italian",
+        "eventId": "1768999576429_5gif",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Alfredo Pasta Farfalle Live",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Pesto Linguini Live with cherry tomatoes and fresh basil",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Steamed Butter and garlic Broccoli",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Grilled Mushrooms",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Garlic Bread Live toasted",
+            "price": 2,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Chaat Station",
+        "eventId": "1768999576429_5gif",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Pani Puri 3 flavors",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Deconstructed Samosa chana chaat in whisky glasses",
+            "price": 5,
+            "labor": 2
+          },
+          {
+            "name": "Live Bhel in leaf bowls or martini glasses",
+            "price": 4,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Indo-Chinese",
+        "eventId": "1768999576429_5gif",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Hakka Noodles",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Lasooni Gobi",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Manchurian with white rice",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "eventId": "1768999576429_5gif",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Kulfi Cart with 3 flavors",
+            "price": 6,
+            "labor": 1
+          },
+          {
+            "name": "Gajar halwa live 3 flavors  with  roasted dry fruit",
+            "price": 5,
+            "labor": 2
+          },
+          {
+            "name": "Dessert shots 2 types",
+            "price": 8,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Runners and Cooks",
+        "eventId": "1768999576429_5gif",
+        "laborCount": 6,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "Cooks",
+            "price": 0,
+            "labor": 2
+          },
+          {
+            "name": "Runners",
+            "price": 0,
+            "labor": 4
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1768999576429_5gif",
+    "paymentMade": 0,
+    "createdAt": 1768882200615
+  },
+  {
+    "id": "1768572502469",
+    "client": {
+      "name": "Nita Amin",
+      "planner": "Anita Amin",
+      "date": "2026-02-14",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1768572339770_h7pp",
+          "date": "2026-02-14",
+          "guests": 150,
+          "fees": {
+            "labor": 0,
+            "chafing": 850,
+            "travel": 650,
+            "kitchen": 1800,
+            "_customTotals": {
+              "total": 1250,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Baby Shower",
+          "timing": "10:00 am  -2:00 pm",
+          "address": "433 Bishop Event Center Atlanta, GA 30318",
+          "note": "",
+          "customNote": "",
+          "customCharges": [
+            {
+              "note": "Bussers",
+              "amount": 1250,
+              "taxable": false
+            }
+          ]
+        }
+      ],
+      "specialRequest": "To be mom Allergic to nuts, everything needs to be nut free"
+    },
+    "stations": [
+      {
+        "name": "Chai Station 10:00 am -11:00 am",
+        "eventId": "1768572339770_h7pp",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Chai Station",
+            "price": 2,
+            "labor": 1
+          },
+          {
+            "name": "Cookies station",
+            "price": 4,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Lunch",
+        "eventId": "1768572339770_h7pp",
+        "laborCount": 8,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Egg bhurji",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Paneer Bhurji",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Paratha Live",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Dahi Vada",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Chutney sandwich",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Chicken Slider",
+            "price": 5,
+            "labor": 2
+          },
+          {
+            "name": "Papadi no lot with 2 flavors topping",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Butter  Grits and Tandoori Shrimp",
+            "price": 7,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "eventId": "1768572339770_h7pp",
+        "laborCount": 1,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Gulab Jamun hot",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Disposables",
+        "eventId": "1768572339770_h7pp",
+        "laborCount": 0,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Chai Cups",
+            "price": 1.5,
+            "labor": 0
+          },
+          {
+            "name": "Appetizer plates",
+            "price": 1.5,
+            "labor": 0
+          },
+          {
+            "name": "Dinner plates",
+            "price": 1,
+            "labor": 0
+          },
+          {
+            "name": "Forks",
+            "price": 1,
+            "labor": 0
+          },
+          {
+            "name": "Spoons",
+            "price": 1,
+            "labor": 0
+          },
+          {
+            "name": "Napkins",
+            "price": 1,
+            "labor": 0
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1768572339770_h7pp",
+    "paymentMade": 0,
+    "createdAt": 1768572502469
+  },
+  {
+    "id": "1768400255761",
+    "client": {
+      "name": "Mr. Sri",
+      "planner": "Non",
+      "date": "2026-02-21",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1768399722067_powo",
+          "date": "2026-02-21",
+          "guests": 350,
+          "fees": {
+            "labor": 0,
+            "chafing": 1800,
+            "travel": 650,
+            "kitchen": 2800,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Sweet 16th",
+          "timing": "6:00 pm -10:00 pm",
+          "address": "Westin Gwinnett",
+          "note": "Lighted Counters extra base package $4500 and Premium $6000",
+          "customNote": "",
+          "customCharges": []
+        }
+      ],
+      "phone": "404-642-9008"
+    },
+    "stations": [
+      {
+        "name": "Chaat Station",
+        "eventId": "1768399722067_powo",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Pani Puri 3 flavors",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Mango Pineapple Papadi Chaat",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Mushroom 65",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Maggi Balls",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Kabob Station",
+        "eventId": "1768399722067_powo",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Amritsari fish fry",
+            "price": 5,
+            "labor": 0
+          },
+          {
+            "name": "Tandoori Salmon",
+            "price": 6,
+            "labor": 1
+          },
+          {
+            "name": "Achari Chicken",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Fire Cracker or chili chicken dry",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Tandoori Shrimp  Jumbo",
+            "price": 6,
+            "labor": 1
+          },
+          {
+            "name": "Lamb chops 350 pcs",
+            "price": 8,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Bombay station",
+        "eventId": "1768399722067_powo",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Kabob rolls Paneer",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Veg Hakka Noodles",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Veg Biryani with mint raita",
+            "price": 3,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert Station",
+        "eventId": "1768399722067_powo",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Mini funnel Cakes",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Mango mousse with Boba Shots",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Lota Jalebi Live",
+            "price": 5,
+            "labor": 2
+          },
+          {
+            "name": "",
+            "price": 0,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Mocktail Live with 2 Bar tenders",
+        "eventId": "1768399722067_powo",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Taquilla Sunrise",
+            "price": 1.5,
+            "labor": 1
+          },
+          {
+            "name": "Mango Mojito",
+            "price": 1.5,
+            "labor": 1
+          },
+          {
+            "name": "Pina Colada",
+            "price": 1.5,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Cooks and runners",
+        "eventId": "1768399722067_powo",
+        "laborCount": 6,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "cooks",
+            "price": 0,
+            "labor": 2
+          },
+          {
+            "name": "Runner",
+            "price": 0,
+            "labor": 4
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1768399722067_powo",
+    "paymentMade": 0,
+    "createdAt": 1768400255761
+  },
+  {
+    "id": "1768398288393",
+    "client": {
+      "name": "Uma Vempati",
+      "planner": "Nilima",
+      "date": "2026-05-09",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1768397727730_5b6w",
+          "date": "2026-05-09",
+          "guests": 250,
+          "fees": {
+            "labor": 0,
+            "chafing": 1800,
+            "travel": 650,
+            "kitchen": 1800,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Reception",
+          "timing": "6:00 pm - 10:00 pm",
+          "address": "Chateau élan",
+          "note": "Lighted Counters Extra Base Package $4000 and Premium $5500",
+          "customNote": "",
+          "customCharges": []
+        }
+      ],
+      "phone": "678-525-4639"
+    },
+    "stations": [
+      {
+        "name": "Appetizer",
+        "eventId": "1768397727730_5b6w",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Papadi Chat with Pomegranate Topping",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Wonton Paneer Taco",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Mexican Spring Roll",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Crispy Dahi Kabobs with mild pineapple chutney",
+            "price": 5,
+            "labor": 1
+          },
+          {
+            "name": "Cilantro Garlic Chicken",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Chutney Bombs Passed",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Pav bhaji Empanadas",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Lasooni Gobi",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Drink Station",
+        "eventId": "1768397727730_5b6w",
+        "laborCount": 0,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Mango Mojito",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Raspberry Lycheetini",
+            "price": 2,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Main Course",
+        "eventId": "1768397727730_5b6w",
+        "laborCount": 7,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Dal Bhukara",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Butter Paneer",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Shaam savera Kofta Curry",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Old Delhi Butter Chicken",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Bombay Veg Biryani",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Rumlai Roti",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Salad(Sweet onion, Beetroot, cucumber) Papad, Pickle, Raita",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "eventId": "1768397727730_5b6w",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Live Lota Jalebi with kesar radbi and Hot chocolate",
+            "price": 5,
+            "labor": 2
+          },
+          {
+            "name": "Falooda station Bar with 4 flavors and toppings",
+            "price": 6,
+            "labor": 3
+          },
+          {
+            "name": "Mango mousse  shots",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Key lime Pie Shots",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1768397727730_5b6w",
+    "paymentMade": 0,
+    "createdAt": 1768398288393
+  },
+  {
+    "id": "1768339978269",
+    "client": {
+      "name": "Gurpreet Kaur & Eknoor Singh",
+      "planner": "Nilima",
+      "date": "2026-05-22",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1768337902724_862q",
+          "date": "2026-05-20",
+          "guests": 150,
+          "fees": {
+            "labor": 0,
+            "chafing": 1800,
+            "travel": 650,
+            "kitchen": 1600,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Jagoo Sangeet",
+          "timing": "6:00 pm - 11:00 pm",
+          "address": "Hilton Alpharetta\n5775 Windward Pkwy, Alpharetta, GA 30005",
+          "note": "Lighted Counters  Extra Base package  $3500  Premium $4500",
+          "customNote": "",
+          "customCharges": []
+        },
+        {
+          "id": "1768338051271_xz1v",
+          "date": "2026-05-21",
+          "guests": 150,
+          "fees": {
+            "labor": 0,
+            "chafing": 1400,
+            "travel": 650,
+            "kitchen": 1600,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Haldi Churra Ceremony",
+          "timing": "4:00 pm -8 :00 pm",
+          "address": "Hilton Alpharetta\n5775 Windward Pkwy, Alpharetta, GA 30005",
+          "note": "Lighted Counters  Extra Base package  $3500  Premium $4500",
+          "customNote": "",
+          "customCharges": []
+        },
+        {
+          "id": "1768338121295_te75",
+          "date": "2026-05-22",
+          "guests": 250,
+          "fees": {
+            "labor": 0,
+            "chafing": 800,
+            "travel": 850,
+            "kitchen": 0,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Wedding Appetizer",
+          "timing": "9:00 am - 2:00 pm",
+          "address": "At Stone Mountain Gurudawara",
+          "note": "",
+          "customNote": "",
+          "customCharges": []
+        },
+        {
+          "id": "1768338593589_8ag6",
+          "date": "2026-05-22",
+          "guests": 250,
+          "fees": {
+            "labor": 0,
+            "chafing": 1800,
+            "travel": 850,
+            "kitchen": 1600,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Wedding Lunch",
+          "timing": "4:00 pm - 8:00 pm",
+          "address": "At South West Galleria",
+          "note": "",
+          "customNote": "",
+          "customCharges": []
+        }
+      ],
+      "phone": ""
+    },
+    "stations": [
+      {
+        "name": "Chaat Station",
+        "eventId": "1768337902724_862q",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Dahi Puri with 2 flavors Live",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Yam Chaat",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Dahi Bhalla Shots",
+            "price": 3,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Dosa station",
+        "eventId": "1768337902724_862q",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Live Dosa Plain  Masala On Side",
+            "price": 4,
+            "labor": 3
+          },
+          {
+            "name": "Sambhar",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Coconut and Spicy Tomato Chutney",
+            "price": 2,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Curry station",
+        "eventId": "1768337902724_862q",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Nutri Kulcha Live",
+            "price": 5,
+            "labor": 1
+          },
+          {
+            "name": "Dal chawal Fry",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Dhaba Goat Curry",
+            "price": 6,
+            "labor": 0
+          },
+          {
+            "name": "Butter Chicken",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Live Naan",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Salad Cucumber, tomato, Reddish, Beetroot, Onion",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Kabob Station",
+        "eventId": "1768337902724_862q",
+        "laborCount": 1,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Mint and Tandoori Paneer Skewer",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Amritsari Fish Fry",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Malai Chicken",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Chili chicken Dry",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert Station",
+        "eventId": "1768337902724_862q",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Live Jalebi rabdi",
+            "price": 6,
+            "labor": 2
+          },
+          {
+            "name": "Kheer Shots",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Kulfi Cart with 4 flavors",
+            "price": 6,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "eventId": "1768338051271_xz1v",
+        "laborCount": 6,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Dahi Paneer tikki  Chaat",
+            "price": 5,
+            "labor": 1
+          },
+          {
+            "name": "Mexican Spring roll Veg",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Veg Hakka Noodles",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Tandoori Salmon",
+            "price": 7,
+            "labor": 1
+          },
+          {
+            "name": "Achari  Chicken (extra for 1 lb bone in Whole chicken)",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Lamb Sheekh Kabob",
+            "price": 6,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Cooks and Runners",
+        "eventId": "1768337902724_862q",
+        "laborCount": 6,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "Cooks",
+            "price": 0,
+            "labor": 2
+          },
+          {
+            "name": "Runners",
+            "price": 0,
+            "labor": 4
+          }
+        ]
+      },
+      {
+        "name": "Main Dinner",
+        "eventId": "1768338051271_xz1v",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Amritsari Chana Masala",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Punjabi Bhindi do Payaza",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Dal Makhni",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Chicken Kali Mirchi",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Lal Maas Goat Curry",
+            "price": 7,
+            "labor": 0
+          },
+          {
+            "name": "Rumlai Roti",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Garlic Naan",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Jeera rice",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Saald, Raita, Papad",
+            "price": 0,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "eventId": "1768338051271_xz1v",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Malpua Rabdi Shots",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Falooda station with 4 flavors",
+            "price": 6,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Cooks and Runners",
+        "eventId": "1768338051271_xz1v",
+        "laborCount": 6,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "cooks",
+            "price": 0,
+            "labor": 2
+          },
+          {
+            "name": "Runners",
+            "price": 0,
+            "labor": 4
+          }
+        ]
+      },
+      {
+        "name": "Breakfast",
+        "eventId": "1768338121295_te75",
+        "laborCount": 8,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Samosa Chana Chaat",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Paneer Pakoda Filled with chutney",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Veg Dahi or Chutney Sandwiches",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Veg Hakka Noodles",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Lasooni Gobi",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Fruits Display with 4 Seasonal Fruits",
+            "price": 5,
+            "labor": 1
+          },
+          {
+            "name": "Coconut Kala Jamun",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Vanilla and Mango Pastry",
+            "price": 6,
+            "labor": 0
+          },
+          {
+            "name": "Masala Chai",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Coke, Sprite zero, Fanta",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "eventId": "1768338593589_8ag6",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Pani Puri with 3 Flavors",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Maggi Balls",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Mango Pineapple Papadi Chaat",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Lamb Chops (250 pcs)",
+            "price": 9,
+            "labor": 0
+          },
+          {
+            "name": "Haryalai Chicken",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Achari Fish Tikka",
+            "price": 6,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Main Course Lunch",
+        "eventId": "1768338593589_8ag6",
+        "laborCount": 7,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Tawa Veg ( Baingan Bharwa, Bhindi, Jerra Aloo)",
+            "price": 9,
+            "labor": 1
+          },
+          {
+            "name": "Paneer Masala",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Dal Makhni",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Kaju Khoya Matar",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Ra-Ra Goat Curry",
+            "price": 6,
+            "labor": 1
+          },
+          {
+            "name": "Old Delhi Butter Chicken",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Chicken Beli Ram Curry",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Live Butter Naan",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Rice Pulao",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Salad, Pickle, veg Raita, Papad",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "eventId": "1768338593589_8ag6",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Cheesecake Shots 3 flavors",
+            "price": 12,
+            "labor": 1
+          },
+          {
+            "name": "Live Gajar Halwa 3 Flavors",
+            "price": 5,
+            "labor": 0
+          },
+          {
+            "name": "Live cannoli cart with rasmalai cream filling",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Cooks and Runners",
+        "eventId": "1768338593589_8ag6",
+        "laborCount": 7,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "Cooks",
+            "price": 0,
+            "labor": 3
+          },
+          {
+            "name": "Runners",
+            "price": 0,
+            "labor": 4
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1768337902724_862q",
+    "paymentMade": 0,
+    "createdAt": 1768341142574
+  },
+  {
+    "id": "1768338370770",
+    "client": {
+      "name": "Gurpreet Kaur & Eknoor Singh",
+      "planner": "Nilima",
+      "date": "2026-05-22",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1768337902724_862q",
+          "date": "2026-05-20",
+          "guests": 150,
+          "fees": {
+            "labor": 0,
+            "chafing": 0,
+            "travel": 0,
+            "kitchen": 0,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Jagoo Sangeet",
+          "timing": "6:00 pm - 11:00 pm",
+          "address": "Hilton Alpharetta\n5775 Windward Pkwy, Alpharetta, GA 30005",
+          "note": "",
+          "customNote": "",
+          "customCharges": []
+        },
+        {
+          "id": "1768338051271_xz1v",
+          "date": "2026-05-21",
+          "guests": 150,
+          "fees": {
+            "labor": 0,
+            "chafing": 0,
+            "travel": 0,
+            "kitchen": 0,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Haldi Churra Ceremony",
+          "timing": "4:00 pm -8 :00 pm",
+          "address": "Hilton Alpharetta\n5775 Windward Pkwy, Alpharetta, GA 30005",
+          "note": "",
+          "customNote": "",
+          "customCharges": []
+        },
+        {
+          "id": "1768338121295_te75",
+          "date": "2026-05-22",
+          "guests": 250,
+          "fees": {
+            "labor": 0,
+            "chafing": 0,
+            "travel": 0,
+            "kitchen": 0,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "wedding Lunch",
+          "timing": "9:00 pm - 8:00 pm",
+          "address": "At Stone Mountain Gurudawara",
+          "note": "",
+          "customNote": "",
+          "customCharges": []
+        }
+      ],
+      "phone": ""
+    },
+    "stations": [],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1768338121295_te75",
+    "paymentMade": 0,
+    "createdAt": 1768338370770
+  },
+  {
+    "id": "1767977360457",
+    "client": {
+      "name": "Dimple and Sagar",
+      "planner": "Nandini",
+      "date": "2026-12-19",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1767973323617_ibpe",
+          "date": "2026-12-18",
+          "guests": 700,
+          "fees": {
+            "labor": 0,
+            "chafing": 2500,
+            "travel": 7000,
+            "kitchen": 3000,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Sangeet",
+          "timing": "6:00 pm- 10:00 pm",
+          "address": "TBD",
+          "note": "",
+          "customNote": "",
+          "customCharges": []
+        },
+        {
+          "id": "1767974980203_qdep",
+          "date": "2026-12-19",
+          "guests": 700,
+          "fees": {
+            "labor": 0,
+            "chafing": 2500,
+            "travel": 2000,
+            "kitchen": 2500,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Reception",
+          "timing": "6:00 pm - 10:00 pm",
+          "address": "TBD",
+          "note": "Lighted Counters for both events Extra $12000 with travel, Labor and Setup",
+          "customNote": "",
+          "customCharges": []
+        }
+      ]
+    },
+    "stations": [
+      {
+        "name": "Chaat",
+        "eventId": "1767973323617_ibpe",
+        "laborCount": 7,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Dahi Paneer tikki With Pineapple Chutney",
+            "price": 4,
+            "labor": 3
+          },
+          {
+            "name": "Pani Puri with 3 flavors",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Dahi Vada Shots",
+            "price": 4,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Kabob station",
+        "eventId": "1767973323617_ibpe",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Paneer skewers with 2 flavors",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Methi Corn Sheek Kabobs",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Mexican",
+        "eventId": "1767973323617_ibpe",
+        "laborCount": 1,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Veg Fajita Station with Mexican Cilantro Rice, Masala Beans, Grill Veg with paneer, Spicy salsa",
+            "price": 10,
+            "labor": 1
+          },
+          {
+            "name": "Green salsa, Lettuce, Cheese, Corn Mix",
+            "price": 0,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Bombay Station",
+        "eventId": "1767973323617_ibpe",
+        "laborCount": 6,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Vada Pav Live",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Pav Bhaji",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Hakka Noodles",
+            "price": 4,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Dessert Station",
+        "eventId": "1767973323617_ibpe",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Kulfi Cart with 4 flavors Eggless",
+            "price": 6,
+            "labor": 2
+          },
+          {
+            "name": "Cheesecake Shots  2 Types  TBD Eggless",
+            "price": 8,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "cooks and Runners",
+        "eventId": "1767973323617_ibpe",
+        "laborCount": 14,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "Cooks",
+            "price": 0,
+            "labor": 6
+          },
+          {
+            "name": "Runner",
+            "price": 0,
+            "labor": 8
+          }
+        ]
+      },
+      {
+        "name": "Appetizer 2 Stations each",
+        "eventId": "1767974980203_qdep",
+        "laborCount": 14,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Rajma Galauti Kabobs with mint remoulade",
+            "price": 4,
+            "labor": 4
+          },
+          {
+            "name": "Mexican Spring rolls",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Paneer Makhni Empanadas",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Lasooni Gobi",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Maggi Balls",
+            "price": 3,
+            "labor": 4
+          }
+        ]
+      },
+      {
+        "name": "Dinner 2 Stations double sided",
+        "eventId": "1767974980203_qdep",
+        "laborCount": 14,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Dal Bhukara",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Malai Kofta",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Palak Paneer",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Tawa Mix Veg",
+            "price": 5,
+            "labor": 2
+          },
+          {
+            "name": "Rice",
+            "price": 2,
+            "labor": 2
+          },
+          {
+            "name": "Rumlai Roti",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Salad, Raita, Papad, Pickle",
+            "price": 4,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Dessert Station",
+        "eventId": "1767974980203_qdep",
+        "laborCount": 8,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Falooda ice Cream Bar with 4 Flavors (vannila, Strawberry Cheesecake, Mango, Sea Salt caramel)",
+            "price": 6,
+            "labor": 6
+          },
+          {
+            "name": "2 Desserts Shots TBD",
+            "price": 6,
+            "labor": 2
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1767974980203_qdep",
+    "paymentMade": 0,
+    "createdAt": 1767977360457
+  },
+  {
+    "id": "1767972288517",
+    "client": {
+      "name": "Sourija Rudra Wedding",
+      "planner": "Dilreet",
+      "date": "2026-08-29",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1767971241491_gx9f",
+          "date": "2026-08-28",
+          "guests": 130,
+          "fees": {
+            "labor": 0,
+            "chafing": 1200,
+            "travel": 850,
+            "kitchen": 1800,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Welcome dinner",
+          "timing": "6:00 pm -9:00 pm",
+          "address": "Shiloh Garden \n5235 Union hill rd., Cumming, GA 30040",
+          "note": "Lighted Counters extra $3500 \nCutlery and Bussing Charges Extra",
+          "customNote": "",
+          "customCharges": []
+        },
+        {
+          "id": "1767971268500_4lax",
+          "date": "2026-08-29",
+          "guests": 130,
+          "fees": {
+            "labor": 0,
+            "chafing": 1800,
+            "travel": 850,
+            "kitchen": 1800,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Reception",
+          "timing": "6:00 pm- 10:00 pm",
+          "address": "Shiloh Garden \n5235 Union hill rd., Cumming, GA 30040",
+          "note": "Lighted Counters extra $3500 \nCutlery and Bussing Charges Extra",
+          "customNote": "",
+          "customCharges": []
+        }
+      ]
+    },
+    "stations": [
+      {
+        "name": "Chaat station",
+        "eventId": "1767971241491_gx9f",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Spinach chaat",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Mango Pineapple Papdi Chaat",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Dabeli",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Kabob station",
+        "eventId": "1767971241491_gx9f",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Chicken Kabob TBD",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Tandoori Shrimp",
+            "price": 6,
+            "labor": 1
+          },
+          {
+            "name": "Paneer Skewers with 2 flavors TBD",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Mexican Station",
+        "eventId": "1767971241491_gx9f",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Mexican Pizza",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Western chicken quesadilla",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Mexican spring rolls",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Thai Station",
+        "eventId": "1767971241491_gx9f",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Thai Basil Fried rice",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Thai Green Veg Penang Curry",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Dessert Station",
+        "eventId": "1767971241491_gx9f",
+        "laborCount": 0,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Mango Mousse with Boba",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Keylime Pie Mousse shot",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Kulfi Cart with 4 flavors (mango, Malai, Paan, Oreo)",
+            "price": 6,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Runners and Cooks",
+        "eventId": "1767971241491_gx9f",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "Cooks",
+            "price": 0,
+            "labor": 2
+          },
+          {
+            "name": "Runner",
+            "price": 0,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Appetizer",
+        "eventId": "1767971268500_4lax",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Tandoori Chicken",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Tandoori Salmon",
+            "price": 6,
+            "labor": 1
+          },
+          {
+            "name": "Pani Puri 3 flavors",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Wonton Paneer Taco",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Dahi Paneer tikki with Pineapple Chutney",
+            "price": 5,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Dinner",
+        "eventId": "1767971268500_4lax",
+        "laborCount": 6,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Malai Kofta",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Dal Bhukara",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Chili paneer",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Chicken Curry TBD",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Masala Fish",
+            "price": 5,
+            "labor": 1
+          },
+          {
+            "name": "Lamb Roganjosh",
+            "price": 6,
+            "labor": 1
+          },
+          {
+            "name": "Rice",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Garlic Naan",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Salad, Papad, Pickle, Raita",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert Station",
+        "eventId": "1767971268500_4lax",
+        "laborCount": 0,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Falooda Ice Cream Bar with 4 Flavors and toppings",
+            "price": 6,
+            "labor": 0
+          },
+          {
+            "name": "Vanilla, Mango, Strawberry cheesecake, Sea salt caramel",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "Live Lota Thin and Crispy  Jalebi",
+            "price": 5,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Cooks and Runners",
+        "eventId": "1767971268500_4lax",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "cooks",
+            "price": 0,
+            "labor": 2
+          },
+          {
+            "name": "Runners",
+            "price": 0,
+            "labor": 1
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1767971268500_4lax",
+    "paymentMade": 0,
+    "createdAt": 1767972288517
+  },
+  {
+    "id": "1767965375093",
+    "client": {
+      "name": "Shaily Shah",
+      "planner": "TBD",
+      "date": "2026-08-07",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1767964932150_f74c",
+          "date": "2026-08-05",
+          "guests": 250,
+          "fees": {
+            "labor": 0,
+            "chafing": 1200,
+            "travel": 1200,
+            "kitchen": 1800,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Welcome Dinner",
+          "timing": "6:00 pm -9:00 pm",
+          "address": "Blackberry Ridge \n625 GA-301 Trenton, GA 30752",
+          "note": "",
+          "customNote": "",
+          "customCharges": []
+        },
+        {
+          "id": "1767965444795_c0g3",
+          "date": "2026-08-06",
+          "guests": 250,
+          "fees": {
+            "labor": 0,
+            "chafing": 1500,
+            "travel": 850,
+            "kitchen": 1800,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Sangeet",
+          "timing": "6:30 pm 9:30pm",
+          "address": "Blackberry Ridge \n625 GA-301 Trenton, GA 30752",
+          "note": "Lighted Counters extra for $4500",
+          "customNote": "",
+          "customCharges": []
+        },
+        {
+          "id": "1767965847582_cp2c",
+          "date": "2026-08-07",
+          "guests": 250,
+          "fees": {
+            "labor": 0,
+            "chafing": 1800,
+            "travel": 850,
+            "kitchen": 1800,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Reception",
+          "timing": "6:00 pm -10.00 pm",
+          "address": "Blackberry Ridge \n625 GA-301 Trenton, GA 30752",
+          "note": "we recommend having max 6 items for appetizer and 6 items in main course with 3 minimum desert \nLighted counters for reception extra for $3500 with travel setup and labor",
+          "customNote": "",
+          "customCharges": []
+        }
+      ],
+      "phone": "6106036971"
+    },
+    "stations": [
+      {
+        "name": "Bao Bun Station",
+        "eventId": "1767964932150_f74c",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Veg Bao Bun",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Shrimp Tempura Bao Bun",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Italian Station",
+        "eventId": "1767964932150_f74c",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Naan Pizza (chutney Flavor Veg)",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Margarita  Bruschetta",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Pesto Linguini",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Mediterranean Station",
+        "eventId": "1767964932150_f74c",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Falafel Wraps",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Chicken Gyro Wraps or With Saffron Rice",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Paneer Shawarma Tacos",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "eventId": "1767964932150_f74c",
+        "laborCount": 1,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Kulfi Cart with 3 Flavors (Green Tea Matcha, Mango, Paan)",
+            "price": 6,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Runners and Cooks",
+        "eventId": "1767964932150_f74c",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "Cooks",
+            "price": 0,
+            "labor": 2
+          },
+          {
+            "name": "Runner",
+            "price": 0,
+            "labor": 3
+          }
+        ]
+      },
+      {
+        "name": "Pizza Station",
+        "eventId": "1767965444795_c0g3",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Spicy Szechwan Veg",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Tikka Masala chicken",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Mexican Station",
+        "eventId": "1767965444795_c0g3",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Wonton Tofu Taco",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Soft Shrimp Taco",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Mexican Taco Chaat Cups",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Western Veg Quesadilla or Chicken",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "",
+            "price": 0,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "South Indian",
+        "eventId": "1767965444795_c0g3",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Pani Puri with 3 falvors",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Live Dosa with Sambhar and 2 Chutneys",
+            "price": 8,
+            "labor": 3
+          },
+          {
+            "name": "Heart idli",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Indo Chinese Station",
+        "eventId": "1767965444795_c0g3",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Chili Baby Corn",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Veg Ball Manchurian",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Chili Chicken",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "eventId": "1767965444795_c0g3",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Live Paan station",
+            "price": 6,
+            "labor": 1
+          },
+          {
+            "name": "Fresh Lota Jalebi with Chocolate on side for dipping",
+            "price": 5,
+            "labor": 1
+          },
+          {
+            "name": "Gulab Jamun Cream Shots",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Appetizer",
+        "eventId": "1767965847582_cp2c",
+        "laborCount": 10,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Mexican Pizza Bites",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Veg Momo Pan Fried",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Maggi Balls",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Aloo tikki chaat",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Dabeli Sandwiches",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Avacado papdi Chaat",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Haryali chicken Bites",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Armitsari Fish Fry",
+            "price": 6,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Runner and cooks",
+        "eventId": "1767965444795_c0g3",
+        "laborCount": 7,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "Cooks",
+            "price": 0,
+            "labor": 2
+          },
+          {
+            "name": "Runners",
+            "price": 0,
+            "labor": 5
+          }
+        ]
+      },
+      {
+        "name": "Dinner Thai Station",
+        "eventId": "1767965847582_cp2c",
+        "laborCount": 0,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Spicy Basil Fried Rice",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Thai Green Veg Curry (tofu)",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Drunken Noodles",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Thai Red Curry Chicken",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "White Jasmine Rice",
+            "price": 2,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dinner North Indian Station",
+        "eventId": "1767965847582_cp2c",
+        "laborCount": 0,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Baingan Bharta",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Malai Kofta",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Paneer Bhurji",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Dhaba goat curry",
+            "price": 7,
+            "labor": 0
+          },
+          {
+            "name": "Rumlai Roti",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Garlic Naan",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Rice",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Salad, Raita, Papad, Pickle",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert Station",
+        "eventId": "1767965847582_cp2c",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Churros with 3 toppings",
+            "price": 5,
+            "labor": 1
+          },
+          {
+            "name": "Ras Malai Mousse Shots",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Mini Cake donuts Live",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Motti Choor Laddo Cheesecake",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Paan Shots",
+            "price": 3,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Cooks and runner",
+        "eventId": "1767965847582_cp2c",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "cooks",
+            "price": 0,
+            "labor": 2
+          },
+          {
+            "name": "Runner",
+            "price": 0,
+            "labor": 3
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1767965847582_cp2c",
+    "paymentMade": 0,
+    "createdAt": 1767965375093
+  },
+  {
+    "id": "1767844740738",
+    "client": {
+      "name": "Adil & Devika",
+      "planner": "non",
+      "date": "2026-06-06",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1767841508594_2exo",
+          "date": "2026-06-06",
+          "guests": 200,
+          "fees": {
+            "labor": 0,
+            "chafing": 1800,
+            "travel": 850,
+            "kitchen": 1800,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Reception",
+          "timing": "",
+          "address": "TBD",
+          "note": "",
+          "customNote": "",
+          "customCharges": []
+        }
+      ],
+      "phone": "2253281636"
+    },
+    "stations": [
+      {
+        "name": "Cocktail 4.00 -5.30 pm",
+        "eventId": "1767841508594_2exo",
+        "laborCount": 6,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Heart idli with sambhar",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Chicken Angare Kabob",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Pani Puri with 3 flavors",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Lamb Boti Kabob",
+            "price": 6,
+            "labor": 1
+          },
+          {
+            "name": "Pav bhaji Slider",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Maggi Balls",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Mocktails Live 2 Bar Tenders",
+        "eventId": "1767841508594_2exo",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Raspberry Lycheetini",
+            "price": 2,
+            "labor": 1
+          },
+          {
+            "name": "Watermelon limeade",
+            "price": 2,
+            "labor": 1
+          },
+          {
+            "name": "Mango Mojito",
+            "price": 2,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dinner 6:30 pm -8:00 pm",
+        "eventId": "1767841508594_2exo",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Saag Paneer",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Dal Makhni",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Butter chicken",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Dhaba Goat curry",
+            "price": 7,
+            "labor": 0
+          },
+          {
+            "name": "Bisibelebath",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Veg Biryani",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Rice",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Naan",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Rumlai Roti",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Salad with beetroot Raita, Pickle, Papad",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "eventId": "1767841508594_2exo",
+        "laborCount": 0,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Churros with 3 toppings",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Gulab Jamun Rabdi Shots",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Ras Malai Tres leches",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Late night  Snacks",
+        "eventId": "1767841508594_2exo",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Live Mexican Pizza Bites",
+            "price": 4,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "cooks and runners",
+        "eventId": "1767841508594_2exo",
+        "laborCount": 6,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "cooks",
+            "price": 0,
+            "labor": 2
+          },
+          {
+            "name": "Runner",
+            "price": 0,
+            "labor": 4
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1767841508594_2exo",
+    "paymentMade": 0,
+    "createdAt": 1767844740738
+  },
+  {
+    "id": "1767798916884",
+    "client": {
+      "name": "Bridal Show jan 11 2026",
+      "planner": "Raj Preet chahal",
+      "date": "2026-01-11",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1767756754047_49vx",
+          "date": "2026-01-11",
+          "guests": 600,
+          "fees": {
+            "labor": 0,
+            "chafing": 0,
+            "travel": 0,
+            "kitchen": 0,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Bridal Show",
+          "timing": "12:00 - 5:00 pm",
+          "address": "Avalon",
+          "note": "",
+          "customNote": "",
+          "customCharges": []
+        }
+      ],
+      "phone": "4047719803"
+    },
+    "stations": [
+      {
+        "name": "Chaat Station",
+        "eventId": "1767756754047_49vx",
+        "laborCount": 6,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Yaam chaat Station",
+            "price": 0,
+            "labor": 1
+          },
+          {
+            "name": "chai station with muska pav Bun",
+            "price": 0,
+            "labor": 1
+          },
+          {
+            "name": "Mini chutney Vada Pav",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "Dahi Bhalla Paapdi Chaat",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "samosa quesadilla",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "paneer Taco",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "Maggi Balls",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "Mexican Spring Roll",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "Lamb galuti Kabob",
+            "price": 0,
+            "labor": 1
+          },
+          {
+            "name": "Pav Bhaji Empanadas",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "chicken Tikka Empanadas",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "tandoori chickens wings",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "Manchurian soup",
+            "price": 0,
+            "labor": 1
+          },
+          {
+            "name": "Dahi Puri with Yogurt Mousse cart with 3 flavors",
+            "price": 0,
+            "labor": 1
+          },
+          {
+            "name": "White vatana Chaat",
+            "price": 0,
+            "labor": 1
+          },
+          {
+            "name": "spicy Basil Fried rice or noodles in mini cups",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "veg sushi bao bun",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "Shrimp Tempura bun",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "Chutney Chicken Taquitos",
+            "price": 0,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "eventId": "1767756754047_49vx",
+        "laborCount": 0,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Jalebi Dahi chaat",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "Variety Cheesecake Shots",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "Kulfi Cart",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "cannoli cart",
+            "price": 0,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "cooks and runners",
+        "eventId": "1767756754047_49vx",
+        "laborCount": 10,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "cooks",
+            "price": 0,
+            "labor": 2
+          },
+          {
+            "name": "Runners",
+            "price": 0,
+            "labor": 4
+          },
+          {
+            "name": "servers",
+            "price": 0,
+            "labor": 4
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1767756754047_49vx",
+    "paymentMade": 0,
+    "createdAt": 1767798916884
+  },
+  {
+    "id": "1767756676760",
+    "client": {
+      "name": "Gurshan & Jamie",
+      "planner": "No Planeer",
+      "date": "2026-09-05",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1767553218492_7kkk",
+          "date": "2026-09-04",
+          "guests": 275,
+          "fees": {
+            "labor": 0,
+            "chafing": 1600,
+            "travel": 650,
+            "kitchen": 1800,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Sangeet",
+          "timing": "6:00 - 9:00 pm",
+          "address": "Hilton Norcross",
+          "note": "",
+          "customNote": "",
+          "customCharges": []
+        },
+        {
+          "id": "1767553253179_r1s8",
+          "date": "2026-09-05",
+          "guests": 375,
+          "fees": {
+            "labor": 0,
+            "chafing": 1800,
+            "travel": 650,
+            "kitchen": 1800,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Reception",
+          "timing": "6:00 -10:30 pm",
+          "address": "Hilton Norcross",
+          "note": "",
+          "customNote": "",
+          "customCharges": []
+        }
+      ],
+      "phone": "6785243926"
+    },
+    "stations": [
+      {
+        "name": "Chaat Station",
+        "eventId": "1767553218492_7kkk",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Pani Puri 3 Flavors",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Aloo Tikki Chana chaat",
+            "price": 4,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Kabob Station",
+        "eventId": "1767553218492_7kkk",
+        "laborCount": 1,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Chicken Malai Kabob",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Mint and tandoori Paneer Skewer",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Indo Chinese Station",
+        "eventId": "1767553218492_7kkk",
+        "laborCount": 1,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Schezwan Noodles",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Chili Garlic Chicken",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Gobi Manchurian",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Mediterranean  Station",
+        "eventId": "1767553218492_7kkk",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Jojeh kabobs",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Falafel Wraps",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Tabbouleh",
+            "price": 1,
+            "labor": 0
+          },
+          {
+            "name": "Hummus and Tatziki",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Muhammara",
+            "price": 1,
+            "labor": 0
+          },
+          {
+            "name": "Dill and Lima Bean Rice",
+            "price": 1,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert Station",
+        "eventId": "1767553218492_7kkk",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Falooda Station with 4 Flavors with ice cream bar",
+            "price": 6,
+            "labor": 3
+          },
+          {
+            "name": "Strawberry Kiwi Cheesecake Shots",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Live Mocktail Station",
+        "eventId": "1767553218492_7kkk",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Raspberry Lycheetini",
+            "price": 1.5,
+            "labor": 1
+          },
+          {
+            "name": "Mango Mojito or Pina colada",
+            "price": 1.5,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Cooks and runner",
+        "eventId": "1767553218492_7kkk",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "Cooks",
+            "price": 0,
+            "labor": 2
+          },
+          {
+            "name": "Runners",
+            "price": 0,
+            "labor": 3
+          }
+        ]
+      },
+      {
+        "name": "Appetizer",
+        "eventId": "1767553253179_r1s8",
+        "laborCount": 6,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Italian Bruschetta",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Bhel Martini Chaat",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Veg Fried  Momo or maggi balls",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Mint Tilapia",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Chicken tikka Corn Dogs or Lemon Garlic chicken  on sticks",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Main Course 2 Buffets",
+        "eventId": "1767553253179_r1s8",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Four Cheese Pasta  veg and non veg toppings",
+            "price": 6,
+            "labor": 2
+          },
+          {
+            "name": "Eggplant Lasagna veg",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Paneer toofani",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Old Dlehi butter chicken or Black Pepper Chicken",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Daal Makhni",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Rice",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Naan",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Italian salad, Indian Salad, Pickle, Papad, Raita",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Garlic Bread",
+            "price": 2,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "eventId": "1767553253179_r1s8",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Live jalebi served with Rabdi",
+            "price": 5,
+            "labor": 2
+          },
+          {
+            "name": "Gulab Jamun Cream with Rabdi and shahi Tudka",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Mango Mousse Shots with Mango Boba",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Cooks and Runners",
+        "eventId": "1767553253179_r1s8",
+        "laborCount": 6,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Cooks",
+            "price": 0,
+            "labor": 2
+          },
+          {
+            "name": "Runners",
+            "price": 0,
+            "labor": 4
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1767553218492_7kkk",
+    "paymentMade": 0,
+    "createdAt": 1767756676760
+  },
+  {
+    "id": "1767553287924",
+    "client": {
+      "name": "Gurshan & Jamie",
+      "planner": "No Planeer",
+      "date": "2026-09-05",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1767553218492_7kkk",
+          "date": "2026-09-04",
+          "guests": 275,
+          "fees": {
+            "labor": 0,
+            "chafing": 1600,
+            "travel": 650,
+            "kitchen": 1800,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Sangeet",
+          "timing": "6:00 - 9:00 pm",
+          "address": "Hilton Norcross",
+          "note": "",
+          "customNote": "",
+          "customCharges": []
+        },
+        {
+          "id": "1767553253179_r1s8",
+          "date": "2026-09-05",
+          "guests": 375,
+          "fees": {
+            "labor": 0,
+            "chafing": 1800,
+            "travel": 650,
+            "kitchen": 1800,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Reception",
+          "timing": "6:00 -10:30 pm",
+          "address": "Hilton Norcross",
+          "note": "",
+          "customNote": "",
+          "customCharges": []
+        }
+      ],
+      "phone": "6785243926"
+    },
+    "stations": [
+      {
+        "name": "Chaat Station",
+        "eventId": "1767553218492_7kkk",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Pani Puri 3 Flavors",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Aloo Tikki Chana chaat",
+            "price": 4,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Kabob Station",
+        "eventId": "1767553218492_7kkk",
+        "laborCount": 1,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Chicken Malai Kabob",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Mint and tandoori Paneer Skewer",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Indo Chinese Station",
+        "eventId": "1767553218492_7kkk",
+        "laborCount": 1,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Schezwan Noodles",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Chili Garlic Chicken",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Gobi Manchurian",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Mediterranean  Station",
+        "eventId": "1767553218492_7kkk",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Jojeh kabobs",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Falafel Wraps",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Tabbouleh",
+            "price": 1,
+            "labor": 0
+          },
+          {
+            "name": "Hummus and Tatziki",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Muhammara",
+            "price": 1,
+            "labor": 0
+          },
+          {
+            "name": "Dill and Lima Bean Rice",
+            "price": 1,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert Station",
+        "eventId": "1767553218492_7kkk",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Falooda Station with 4 Flavors with ice cream bar",
+            "price": 6,
+            "labor": 3
+          },
+          {
+            "name": "Strawberry Kiwi Cheesecake Shots",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Live Mocktail Station",
+        "eventId": "1767553218492_7kkk",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Raspberry Lycheetini",
+            "price": 1.5,
+            "labor": 1
+          },
+          {
+            "name": "Mango Mojito or Pina colada",
+            "price": 1.5,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Cooks and runner",
+        "eventId": "1767553218492_7kkk",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "Cooks",
+            "price": 0,
+            "labor": 2
+          },
+          {
+            "name": "Runners",
+            "price": 0,
+            "labor": 3
+          }
+        ]
+      },
+      {
+        "name": "Appetizer",
+        "eventId": "1767553253179_r1s8",
+        "laborCount": 6,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Italian Bruschetta",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Bhel Martini Chaat",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Veg Fried  Momo or maggi balls",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Mint Tilapia",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Chicken tikka Corn Dogs or Lemon Garlic chicken  on sticks",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Main Course 2 Buffets",
+        "eventId": "1767553253179_r1s8",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Four Cheese Pasta  veg and non veg toppings",
+            "price": 6,
+            "labor": 2
+          },
+          {
+            "name": "Eggplant Lasagna veg",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Paneer toofani",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Old Dlehi butter chicken or Black Pepper Chicken",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Daal Makhni",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Rice",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Naan",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Italian salad, Indian Salad, Pickle, Papad, Raita",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Garlic Bread",
+            "price": 2,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "eventId": "1767553253179_r1s8",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Live jalebi served with Rabdi",
+            "price": 5,
+            "labor": 2
+          },
+          {
+            "name": "Gulab Jamun Cream with Rabdi and shahi Tudka",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Mango Mousse Shots with Mango Boba",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Cooks and Runners",
+        "eventId": "1767553253179_r1s8",
+        "laborCount": 6,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Cooks",
+            "price": 0,
+            "labor": 2
+          },
+          {
+            "name": "Runners",
+            "price": 0,
+            "labor": 4
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1767553253179_r1s8",
+    "paymentMade": 0,
+    "createdAt": 1767554796555
+  },
+  {
+    "id": "1767546539019",
+    "client": {
+      "name": "Preethi $ Neel",
+      "planner": "Hailey",
+      "date": "2026-04-25",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1767545749407_9mtj",
+          "date": "2026-04-25",
+          "guests": 145,
+          "fees": {
+            "labor": 0,
+            "chafing": 1600,
+            "travel": 650,
+            "kitchen": 0,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Reception",
+          "timing": "6:00 -10:00 pm",
+          "address": "Intercontinental Buckhead",
+          "note": "",
+          "customNote": "",
+          "customCharges": []
+        }
+      ]
+    },
+    "stations": [
+      {
+        "name": "Appetizer",
+        "eventId": "1767545749407_9mtj",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Mint and Tandoori Paneer skewer",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Crispy Dahi Kabob with Pineapple chutney",
+            "price": 5,
+            "labor": 1
+          },
+          {
+            "name": "Lasooni Gobi",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Malai Chicken",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Cheesy Pesto Corn Sandwich",
+            "price": 3,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Main",
+        "eventId": "1767545749407_9mtj",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Paneer Toofani",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Bhindi Masala",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Black Pepper Chicken",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Dal Makhni",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Rumali Roti",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Assorted Naan",
+            "price": 2,
+            "labor": 1
+          },
+          {
+            "name": "Punjabi Pulao",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Papad, Raita, Pickle",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "eventId": "1767545749407_9mtj",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Motichoor Laddu Cheesecake Shots",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Gulab Jamun Rabdi Shots",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Mango Pudding with sviyan Kheer",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Chefs and Runner",
+        "eventId": "1767545749407_9mtj",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "kitchen cooks",
+            "price": 0,
+            "labor": 2
+          },
+          {
+            "name": "Runners",
+            "price": 0,
+            "labor": 3
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1767545749407_9mtj",
+    "paymentMade": 0,
+    "createdAt": 1767546539019
+  },
+  {
+    "id": "1765896564220",
+    "client": {
+      "name": "Romit & Avani",
+      "planner": "Sumi",
+      "guests": 250,
+      "address": "Crown Plaza Norcross",
+      "events": [
+        {
+          "id": "1762981096236_uzvo",
+          "date": "2026-05-23",
+          "guests": 250,
+          "fees": {
+            "labor": 250,
+            "chafing": 1550,
+            "travel": 650,
+            "kitchen": 2200,
+            "custom": 0
+          },
+          "type": "Sangeet",
+          "address": "Crown Plaza Norcross",
+          "timing": "6:00 pm - 9:00 pm",
+          "customNote": "",
+          "customCharges": [
+            {
+              "note": "Extra charge for Lighted Counters",
+              "amount": 5000,
+              "taxable": false
+            }
+          ]
+        },
+        {
+          "id": "1762981125309_ccp9",
+          "date": "2026-05-24",
+          "guests": 400,
+          "fees": {
+            "labor": 0,
+            "chafing": 1850,
+            "travel": 650,
+            "kitchen": 2200,
+            "custom": 0
+          },
+          "type": "Reception",
+          "address": "Crown Plaza Norcross",
+          "timing": "6:00 pm - 10:30 pm",
+          "customNote": "",
+          "customCharges": []
+        }
+      ]
+    },
+    "stations": [
+      {
+        "name": "Mediterranean Station",
+        "eventId": "1762981096236_uzvo",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Joojeh Kabob",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Falafel",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Red pepper Hummus, Tatziki,",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Fava Bean Dill rice",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Chinese Station",
+        "eventId": "1762981096236_uzvo",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Gobi Manchurian",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Hakka Noodles",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Fried Rice",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Chili Chicken",
+            "price": 4
+          }
+        ]
+      },
+      {
+        "name": "Chaat  Chinese",
+        "eventId": "1762981096236_uzvo",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Pav Bhaji Live",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Pani Puri 3 Flavors",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Dahi Papadi Chaat",
+            "price": 3,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Mexican Station",
+        "eventId": "1762981096236_uzvo",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Veg Quesadilla",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Mexicna Spring roll",
+            "price": 3
+          },
+          {
+            "name": "Chips, Salsa and Queso",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "eventId": "1762981096236_uzvo",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Falooda Station with 4 Flavors(vanilla, Mango, strawberry Cheesecake, Sea Salt caramel with Topping",
+            "price": 6,
+            "labor": 2
+          },
+          {
+            "name": "",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Appetizer",
+        "eventId": "1762981125309_ccp9",
+        "laborCount": 15,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Wonton Paneer Taco",
+            "price": 3,
+            "labor": 4
+          },
+          {
+            "name": "Steamed Chicken Momo",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Shrimp Tempura Bao Bun",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Veg Sushi Bai Bun",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Dahi Vada Shots",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Mango pineapple Papadi Chaat",
+            "price": 4,
+            "labor": 4
+          }
+        ]
+      },
+      {
+        "name": "Runners and Chefs",
+        "eventId": "1762981096236_uzvo",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Runners",
+            "price": 0,
+            "labor": 2
+          },
+          {
+            "name": "Food Truck Cooks",
+            "price": 0,
+            "labor": 3
+          },
+          {
+            "name": "test",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "test",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "test",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "test",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "test",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "test",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "test",
+            "price": 0,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Main Course 2 buffets",
+        "eventId": "1762981125309_ccp9",
+        "laborCount": 0,
+        "laborCost": 0,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Malai Kofta",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Dal Bhukara",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Old Delhi Butter chicken",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Dhaba Chicken Curry",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Rice",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Rumlai Roti",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Salad, Papad, Pickle, Raita",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Fruit Station",
+        "eventId": "1762981125309_ccp9",
+        "laborCount": 0,
+        "laborCost": 0,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Pineapple, Strawberries, Water Melon, Papaya with 4 masalas",
+            "price": 6,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert Station",
+        "eventId": "1762981125309_ccp9",
+        "laborCount": 0,
+        "laborCost": 0,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Paan and Rose Coconut Ladoo",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Live Jalebi Station",
+            "price": 6,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Runners and Cooks",
+        "eventId": "1762981125309_ccp9",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "Runners",
+            "price": 0,
+            "labor": 1
+          },
+          {
+            "name": "Food Truck cooks",
+            "price": 0,
+            "labor": 2
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 5000,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": ""
+  },
+  {
+    "id": "1766177080729",
+    "client": {
+      "name": "Tej and Shilpa",
+      "planner": "Non",
+      "date": "2026-01-24",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1766155823653_91fa",
+          "date": "2026-01-24",
+          "guests": 345,
+          "fees": {
+            "labor": 0,
+            "chafing": 1800,
+            "travel": 850,
+            "kitchen": 2800,
+            "_customTotals": {
+              "total": 5000,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Reception",
+          "timing": "5:30-11:00 pm",
+          "address": "Atlanta Marriot Gateway",
+          "note": "",
+          "customNote": "",
+          "customCharges": [
+            {
+              "note": "Premium Lighted Counters Added",
+              "amount": 5000,
+              "taxable": false
+            }
+          ]
+        }
+      ],
+      "phone": "678-599-2952"
+    },
+    "stations": [
+      {
+        "name": "Cocktail  5:30 pm - 7:00 pm",
+        "eventId": "1766155823653_91fa",
+        "laborCount": 12,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Mini Vada Pav Bombay Style (Bread toasted with butter)",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Mango Pineapple Papadi Chaat",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Mexican Spring roll",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Wonton Paneer Taco",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Soft Chicken Taco",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "lamb sheek kabob",
+            "price": 6,
+            "labor": 1
+          },
+          {
+            "name": "Tandoori Salmon",
+            "price": 6,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Mocktail Live 2 Bartender (4 hours) 5:30 pm -10:30 pm",
+        "eventId": "1766155823653_91fa",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Pina Colada",
+            "price": 2,
+            "labor": 1
+          },
+          {
+            "name": "Raspberry Lycheetini",
+            "price": 2,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Main Curry Station 2 buffets 8:30 pm -10:30 pm",
+        "eventId": "1766155823653_91fa",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Old Delhi Butter chicken",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Diwani handi with Paneer  Less Creamy",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Rumlai Roti",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Salad (cucumber, Tomato, Onions)",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Tikka Masala Pasta with vegetables",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Thai Station 2 buffets 8:30 pm -10:30 pm",
+        "eventId": "1766155823653_91fa",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Pad kee mo Drunken Noodles (Chicken on side) skinny vegetables",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Thai Green Penang Veg curry (vegan)",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Thai Red Penang  Shrimp Curry",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "White Rice",
+            "price": 2,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert Station 9:00 pm -11:00 pm",
+        "eventId": "1766155823653_91fa",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Key lime Pie and Biscoff Cheesecake Shots",
+            "price": 6,
+            "labor": 1
+          },
+          {
+            "name": "Live Jalebi, Rabdi and Chocolate on side",
+            "price": 6,
+            "labor": 2
+          },
+          {
+            "name": "Tiramisu Shots",
+            "price": 3,
+            "labor": 0
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1766155823653_91fa",
+    "paymentMade": 0,
+    "createdAt": 1767837924089
+  },
+  {
+    "id": "1766069058197",
+    "client": {
+      "name": "Nisha and Shiv Patel",
+      "planner": "Sushma Patel",
+      "date": "2026-08-14",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1766016822832_pwrb",
+          "date": "2026-08-14",
+          "guests": 450,
+          "fees": {
+            "labor": 0,
+            "chafing": 2250,
+            "travel": 850,
+            "kitchen": 3000,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Sangeet",
+          "timing": "6:00-10:00 pm",
+          "address": "Clarence Brown Conference Center Cartersville, GA",
+          "note": "Lighted Counters for both events with Travel and Labor $5000 at discounted rate",
+          "customNote": "",
+          "customCharges": []
+        },
+        {
+          "id": "1766016876034_1b56",
+          "date": "2026-08-15",
+          "guests": 350,
+          "fees": {
+            "labor": 0,
+            "chafing": 2850,
+            "travel": 850,
+            "kitchen": 3000,
+            "_customTotals": {
+              "total": 5000,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Reception",
+          "timing": "6:00-10:00 pm",
+          "address": "Clarence Brown Conference Center Cartersville, GA",
+          "note": "Lighted Counters for both events with Travel and Labor $5000 at discounted rate",
+          "customNote": "",
+          "customCharges": [
+            {
+              "note": "Lighted Counter for Both Events with labor setup and travel",
+              "amount": 5000,
+              "taxable": false
+            }
+          ]
+        }
+      ],
+      "phone": "770-731-3624"
+    },
+    "stations": [
+      {
+        "name": "Welcome Drink",
+        "eventId": "1766016822832_pwrb",
+        "laborCount": 1,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Mango Lassi",
+            "price": 2,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Indian Station",
+        "eventId": "1766016822832_pwrb",
+        "laborCount": 6,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Pav Bhaji Live",
+            "price": 5,
+            "labor": 2
+          },
+          {
+            "name": "Masala Dosa Waffle with Coconut Chutney",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Kabob Rolls",
+            "price": 4,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Thai Station",
+        "eventId": "1766016822832_pwrb",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Drunken Veg Noodles",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Veg Penang Curry",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Veg Momos",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Mexican Station",
+        "eventId": "1766016822832_pwrb",
+        "laborCount": 6,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Mexican Pizza",
+            "price": 4,
+            "labor": 3
+          },
+          {
+            "name": "Samosa Quesadilla",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Salsa Queso and Freshly Fried chips",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Mediterranean Station",
+        "eventId": "1766016822832_pwrb",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Falafel, Lettuce, Pico with Parsley, Avocado, Spinach, red Carrots and purple Cabbage mix",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Harrisa, Feta, Pickled onion, Tahini",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Pita chips",
+            "price": 2,
+            "labor": 1
+          },
+          {
+            "name": "Red Pepper Hummus",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Dessert Station",
+        "eventId": "1766016822832_pwrb",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Gajar Halwa live with 3 flavors",
+            "price": 6,
+            "labor": 1
+          },
+          {
+            "name": "Falooda Station with 4 flavors mango, Vanilla, Strawberry Cheesecake, Sea salt Caramel",
+            "price": 6,
+            "labor": 3
+          },
+          {
+            "name": "with toppings",
+            "price": 0,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Paan station",
+        "eventId": "1766016822832_pwrb",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Live Sweet Paan",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Paan Balls",
+            "price": 2,
+            "labor": 1
+          },
+          {
+            "name": "Mukhwas",
+            "price": 0,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Cocktail",
+        "eventId": "1766016876034_1b56",
+        "laborCount": 12,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Pani Puri 3 Flavors mango, Sour and spicy Guava",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Chili paneer Dry",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Mac and Cheese Balls with tikka masala sauce",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Chaat papadi in Martini Cups",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Fried Chicken Wings with 4 Flavor sauce",
+            "price": 6,
+            "labor": 2
+          },
+          {
+            "name": "Haryali Chicken Kabob",
+            "price": 4,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Dinner 2 Buffett",
+        "eventId": "1766016876034_1b56",
+        "laborCount": 11,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Paneer tikka Masala",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Dal Takda",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Kaju Khoya Matar Curry",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Malai Kofta",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Butter Chicken",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Jeera Rice",
+            "price": 2,
+            "labor": 1
+          },
+          {
+            "name": "Naan",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Salad, Papad, Pickle, Raita",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "eventId": "1766016876034_1b56",
+        "laborCount": 1,
+        "laborCost": 50,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "3 desserts Shots",
+            "price": 11,
+            "labor": 1
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1766016822832_pwrb",
+    "paymentMade": 0,
+    "createdAt": 1766070420293
+  },
+  {
+    "id": "1766016077977",
+    "client": {
+      "name": "Akhil and Boci",
+      "planner": "Nilima",
+      "date": "2026-04-25",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1766015159785_5fc9",
+          "date": "2026-04-25",
+          "guests": 150,
+          "fees": {
+            "labor": 0,
+            "chafing": 1600,
+            "travel": 650,
+            "kitchen": 1800,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Reception",
+          "timing": "6:00 -10:00 pm",
+          "address": "Westin Gwinnett",
+          "note": "",
+          "customNote": "",
+          "customCharges": []
+        }
+      ]
+    },
+    "stations": [
+      {
+        "name": "Appetizer",
+        "eventId": "1766015159785_5fc9",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Maggi Balls",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Paneer Taco",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Pani Puri 3 flavors (Mango, Mint, Spicy Guava)",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Tandoori Mint paneer Skewer",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Veg Steamed Momos",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Main Course",
+        "eventId": "1766015159785_5fc9",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Dal Makhni",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Malai Kofta",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Tawa Veg (baingan, Bhindi, Jeera Aloo) no onion no garlic",
+            "price": 8,
+            "labor": 1
+          },
+          {
+            "name": "Amritsari Chana Masala",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Rice",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Rumlai Roti",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Naan",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Salad, Raita, Pickles, Papad",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Hakka Noodles",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "eventId": "1766015159785_5fc9",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Live Falooda Station (mango, Vanilla, Strawberry Cheesecake, Sea Salt Caramel)",
+            "price": 6,
+            "labor": 2
+          },
+          {
+            "name": "Assorted Cheesecake",
+            "price": 5,
+            "labor": 0
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1766015159785_5fc9",
+    "paymentMade": 0,
+    "createdAt": 1766016689105
+  },
+  {
+    "id": "1766014712174",
+    "client": {
+      "name": "Jacquiline and Shivansh",
+      "planner": "Nilima",
+      "date": "2026-04-10",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1766011679625_yjr6",
+          "date": "2026-04-10",
+          "guests": 300,
+          "fees": {
+            "labor": 0,
+            "chafing": 2250,
+            "travel": 650,
+            "kitchen": 1800,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Reception",
+          "timing": "6:00-10:00 pm",
+          "address": "Westin Gwinnett",
+          "note": "Lighted Counters extra Base Package $4500 and Premium $6000 with Setup labor, Truck and travel",
+          "customNote": "",
+          "customCharges": []
+        }
+      ]
+    },
+    "stations": [
+      {
+        "name": "Chaat station",
+        "eventId": "1766011679625_yjr6",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Papadi Chaat",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Pani Puri 3 flavors(Mango, Jal Jeera, Sweet Tamarind)",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Maggi Balls",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Mediterranean Station",
+        "eventId": "1766011679625_yjr6",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Kashke Badejan",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Jojeh Kabob",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Grill Veg",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Saffron Rice",
+            "price": 2,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Thai Station",
+        "eventId": "1766011679625_yjr6",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Spicy Basil Fried Rice",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Bao Bun  veg",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Thai Red Penang Curry Shrimp",
+            "price": 5,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Mexican Station",
+        "eventId": "1766011679625_yjr6",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Taco Bar with Grilled Chicken, Grilled Shrimp, Gobi 65, Mexican Rice, Black Beans, red and Green",
+            "price": 10,
+            "labor": 2
+          },
+          {
+            "name": "Salsa, Cheese, Corn Mix, Lettuce",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "Wester Chicken Qusadilla",
+            "price": 4,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Live Matka Lassi Bar",
+        "eventId": "1766011679625_yjr6",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Mango",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Masala",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Sweet Lassi",
+            "price": 2,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Dessert Station",
+        "eventId": "1766011679625_yjr6",
+        "laborCount": 7,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Ice Cream Falooda Bar with 4 Flavors mango, Sea salt Caramel, Strawberry Cheesecake, Vanilla",
+            "price": 7,
+            "labor": 3
+          },
+          {
+            "name": "with toppings",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "Thin Lota jalebi",
+            "price": 5,
+            "labor": 2
+          },
+          {
+            "name": "Live Cannoli Cart with Dubai chocolate",
+            "price": 6,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Runners  and Cooks",
+        "eventId": "1766011679625_yjr6",
+        "laborCount": 7,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "Runners",
+            "price": 0,
+            "labor": 4
+          },
+          {
+            "name": "Cooks",
+            "price": 0,
+            "labor": 3
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1766011679625_yjr6",
+    "paymentMade": 0,
+    "createdAt": 1766014712174
+  },
+  {
+    "id": "1766012938384",
+    "client": {
+      "name": "Milan Merchant",
+      "planner": "Nandani",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1766008799510_5z2b",
+          "date": "2026-06-20",
+          "guests": 250,
+          "fees": {
+            "labor": 0,
+            "chafing": 1650,
+            "travel": 650,
+            "kitchen": 1800,
+            "custom": 0,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            }
+          },
+          "type": "Reception",
+          "timing": "6:00 -10:00 pm",
+          "address": "Lake Lanier",
+          "customCharges": [],
+          "customNote": ""
+        }
+      ],
+      "phone": "404-789-7601"
+    },
+    "stations": [
+      {
+        "name": "Appetizer",
+        "eventId": "1766008799510_5z2b",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Live Mint Paneer skewers",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Malai Chicken",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Lamb Chops (250pcs)",
+            "price": 9,
+            "labor": 1
+          },
+          {
+            "name": "Jalapeno Paneer Taco",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Mocktail Live Station With 2 Bar Tender",
+        "eventId": "1766008799510_5z2b",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Mango Mojito",
+            "price": 2,
+            "labor": 1
+          },
+          {
+            "name": "Raspberry Lycheetini",
+            "price": 2,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Main Course",
+        "eventId": "1766008799510_5z2b",
+        "laborCount": 8,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Dal Makhni",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Muttor Paneer",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Chicken Tikka Masala",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Navratan Korma",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Ra-Ra Goat Curry",
+            "price": 6,
+            "labor": 1
+          },
+          {
+            "name": "Rice",
+            "price": 2,
+            "labor": 1
+          },
+          {
+            "name": "Rumlai Roti",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Salad, Raita, Pickle, Papad",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Asian Fusion",
+        "eventId": "1766008799510_5z2b",
+        "laborCount": 0,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Schezwan Chicken",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Alfredo Pasta",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Gobi Manchurian",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert Station",
+        "eventId": "1766008799510_5z2b",
+        "laborCount": 1,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Live Falooda Station Rose Rabdi",
+            "price": 6,
+            "labor": 0
+          },
+          {
+            "name": "Dessert  Shots 2 Types",
+            "price": 6,
+            "labor": 1
+          },
+          {
+            "name": "Kulfi Cart With 4 Flavor",
+            "price": 6,
+            "labor": 0
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1766008799510_5z2b"
+  },
+  {
+    "id": "1766012633376",
+    "client": {
+      "name": "Jacquiline and Shivansh",
+      "planner": "Nilima",
+      "date": "2026-04-10",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1766011679625_yjr6",
+          "date": "2026-04-10",
+          "guests": 300,
+          "fees": {
+            "labor": 0,
+            "chafing": 2250,
+            "travel": 650,
+            "kitchen": 1800,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            },
+            "custom": 0
+          },
+          "type": "Reception",
+          "timing": "6:00-10:00 pm",
+          "address": "Westin Gwinnett",
+          "note": "Lighted Counters extra Base Package $4000 and Premium $5500 with Setup labor, Truck and travel",
+          "customNote": "",
+          "customCharges": []
+        }
+      ]
+    },
+    "stations": [
+      {
+        "name": "Chaat station",
+        "eventId": "1766011679625_yjr6",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Papadi Chaat",
+            "price": 3,
+            "labor": 2
+          },
+          {
+            "name": "Pani Puri 3 flavors(Mango, Jal Jeera, Sweet Tamarind)",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Maggi Balls",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Mediterranean Station",
+        "eventId": "1766011679625_yjr6",
+        "laborCount": 3,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Kashke Badejan",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Jojeh Kabob",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Grill Veg",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Saffron Rice",
+            "price": 2,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Mexican Station",
+        "eventId": "1766011679625_yjr6",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Taco Bar with Grilled Chicken, Grilled Shrimp, Gobi 65, Mexican Rice, Black Beans, red and Green",
+            "price": 10,
+            "labor": 2
+          },
+          {
+            "name": "Salsa, Cheese, Corn Mix, Lettuce",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "Wester Chicken Qusadilla",
+            "price": 4,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Live Matka Lassi Bar",
+        "eventId": "1766011679625_yjr6",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Mango",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Masala",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Sweet Lassi",
+            "price": 2,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Dessert Station",
+        "eventId": "1766011679625_yjr6",
+        "laborCount": 7,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Ice Cream Falooda Bar with 4 Flavors mango, Sea salt Caramel, Strawberry Cheesecake, Vanilla",
+            "price": 7,
+            "labor": 3
+          },
+          {
+            "name": "with toppings",
+            "price": 0,
+            "labor": 0
+          },
+          {
+            "name": "Thin Lota jalebi",
+            "price": 5,
+            "labor": 2
+          },
+          {
+            "name": "Live Cannoli Cart with Dubai chocolate",
+            "price": 6,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Runners  and Cooks",
+        "eventId": "1766011679625_yjr6",
+        "laborCount": 7,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "Runners",
+            "price": 0,
+            "labor": 4
+          },
+          {
+            "name": "Cooks",
+            "price": 0,
+            "labor": 3
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0,
+      "_customTotals": {
+        "total": 0,
+        "taxableTotal": 0
+      }
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1766011679625_yjr6",
+    "paymentMade": 0,
+    "createdAt": 1766012633376
+  },
+  {
+    "id": "1765809583016",
+    "client": {
+      "name": "Anish & Roma",
+      "planner": "Nilima Patel",
+      "guests": 0,
+      "address": "",
+      "events": [
+        {
+          "id": "1763558049012_q56l",
+          "date": "2026-01-02",
+          "guests": 162,
+          "fees": {
+            "labor": 0,
+            "chafing": 1500,
+            "travel": 650,
+            "kitchen": 1800,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            }
+          },
+          "type": "Garba Night",
+          "timing": "6:00-9:00pm",
+          "address": "Westin Duluth",
+          "customCharges": []
+        },
+        {
+          "id": "1763558084541_cnkj",
+          "date": "2026-01-03",
+          "guests": 173,
+          "fees": {
+            "labor": 0,
+            "chafing": 1800,
+            "travel": 650,
+            "kitchen": 1800,
+            "_customTotals": {
+              "total": 7000,
+              "taxableTotal": 0
+            }
+          },
+          "type": "Reception",
+          "timing": "6:00-10:30 pm",
+          "address": "Westin Duluth",
+          "customCharges": [
+            {
+              "note": "Premium Lighted counters Added for Both Events",
+              "amount": 7000,
+              "taxable": false
+            }
+          ]
+        }
+      ]
+    },
+    "stations": [
+      {
+        "name": "Chaat Station",
+        "eventId": "1763558049012_q56l",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Pani Puri 3 flavors",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Pav bhaji Empanadas",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Peri Peri corn Chaat shots",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Mini Paneer Sliders",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Asian Station",
+        "eventId": "1763558049012_q56l",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Hakka Noodles",
+            "price": 3,
+            "labor": 1
+          },
+          {
+            "name": "Lasooni Gobi",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Spicy Basil Fried Rice",
+            "price": 3,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Mexican Station",
+        "eventId": "1763558049012_q56l",
+        "laborCount": 4,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Mexican spring roll",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Taco Chaat Cups",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Samosa Quesadilla",
+            "price": 4,
+            "labor": 2
+          }
+        ]
+      },
+      {
+        "name": "Dessert Station",
+        "eventId": "1763558049012_q56l",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Kufi Cart (Malai, Mango, Paan)",
+            "price": 6,
+            "labor": 1
+          },
+          {
+            "name": "Mango Pastry",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Pineapple Pastry",
+            "price": 4,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Runners & Cooks",
+        "eventId": "1763558049012_q56l",
+        "laborCount": 5,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "Runners",
+            "price": 0,
+            "labor": 2
+          },
+          {
+            "name": "Cooks",
+            "price": 0,
+            "labor": 3
+          }
+        ]
+      },
+      {
+        "name": "Cocktail",
+        "eventId": "1763558084541_cnkj",
+        "laborCount": 8,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Chicken Tikka",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Chicken Mint Kabob",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Mini Chutney Vada Pav",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Methi Paneer Tiiki",
+            "price": 4,
+            "labor": 2
+          },
+          {
+            "name": "Lamb chops",
+            "price": 9,
+            "labor": 1
+          },
+          {
+            "name": "Maggi Balls",
+            "price": 3,
+            "labor": 1
+          }
+        ]
+      },
+      {
+        "name": "Main Course",
+        "eventId": "1763558084541_cnkj",
+        "laborCount": 0,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Kadi Pakoda",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Paneer Toofani",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Tawa Veg (Baingan, Bhindi, Jeera Aloo)",
+            "price": 9,
+            "labor": 0
+          },
+          {
+            "name": "Butter Chicken",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Masala Tawa Fish Curry",
+            "price": 5,
+            "labor": 0
+          },
+          {
+            "name": "Rumlai Roti",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "Rice",
+            "price": 2,
+            "labor": 0
+          },
+          {
+            "name": "Salad, Raita,Papad, Pickle",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Naan",
+            "price": 3,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "eventId": "1763558084541_cnkj",
+        "laborCount": 2,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Mango Mousse With Boba",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Key Lime Cheesecake Shots",
+            "price": 4,
+            "labor": 0
+          },
+          {
+            "name": "Biscoff mousse Shots",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Paan Shots",
+            "price": 4,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Runners and Cooks",
+        "eventId": "1763558084541_cnkj",
+        "laborCount": 7,
+        "laborCost": 250,
+        "hideFromPrint": true,
+        "items": [
+          {
+            "name": "Runners",
+            "price": 0,
+            "labor": 4
+          },
+          {
+            "name": "Cooks",
+            "price": 0,
+            "labor": 3
+          }
+        ]
+      },
+      {
+        "name": "Thai Station",
+        "eventId": "1763558049012_q56l",
+        "laborCount": 1,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Green veg Panang Curry",
+            "price": 4,
+            "labor": 1
+          },
+          {
+            "name": "Basil Fried rice",
+            "price": 3,
+            "labor": 0
+          },
+          {
+            "name": "White rice",
+            "price": 2,
+            "labor": 0
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1763558049012_q56l",
+    "paymentMade": 0,
+    "createdAt": 1767114925586
+  },
+  {
+    "id": "1765846893077",
+    "client": {
+      "name": "Raveena & Ishaan",
+      "planner": "Nadira",
+      "guests": 0,
+      "address": "Summerour Studio",
+      "events": [
+        {
+          "id": "1762881401217_4w56",
+          "date": "2026-02-28",
+          "guests": 200,
+          "fees": {
+            "labor": 250,
+            "chafing": 1850,
+            "travel": 1100,
+            "kitchen": 2200,
+            "custom": 0,
+            "_customTotals": {
+              "total": 0,
+              "taxableTotal": 0
+            }
+          },
+          "type": "Reception",
+          "address": "Summerour Studio",
+          "customNote": "",
+          "customCharges": []
+        }
+      ]
+    },
+    "stations": [
+      {
+        "name": "Cocktail",
+        "eventId": "1762881401217_4w56",
+        "laborCount": 0,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Veg Samosa Chaat",
+            "price": 4
+          },
+          {
+            "name": "Mexican Veg Rolls",
+            "price": 4
+          },
+          {
+            "name": "Pav Bhaji Empanadas",
+            "price": 3
+          },
+          {
+            "name": "Maggi Balls",
+            "price": 3
+          },
+          {
+            "name": "Lasooni Chicken Kabobs",
+            "price": 4
+          },
+          {
+            "name": "Dahi Paneer tikki with pineapple Chutney",
+            "price": 4
+          },
+          {
+            "name": "Chicken Slider",
+            "price": 4
+          },
+          {
+            "name": "Veg Sushi Bao Bun",
+            "price": 4
+          }
+        ]
+      },
+      {
+        "name": "Main Course",
+        "eventId": "1762881401217_4w56",
+        "laborCount": 0,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Kaju Methi Malai",
+            "price": 4
+          },
+          {
+            "name": "Veg Tawa Fry",
+            "price": 4
+          },
+          {
+            "name": "Dal Bhukara",
+            "price": 4
+          },
+          {
+            "name": "Butter Chicken",
+            "price": 4
+          },
+          {
+            "name": "Assorted Naan",
+            "price": 3
+          },
+          {
+            "name": "Jeera Rice",
+            "price": 2
+          },
+          {
+            "name": "Salad, Papad, Raita, Pickle",
+            "price": 4
+          }
+        ]
+      },
+      {
+        "name": "Dessert  Station",
+        "eventId": "1762881401217_4w56",
+        "laborCount": 16,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Live Gajar Halwa with 3 Flavor",
+            "price": 6,
+            "labor": 16
+          },
+          {
+            "name": "Lemon Cheesecake Shots",
+            "price": 4
+          },
+          {
+            "name": "Paan Mukhwas Station",
+            "price": 3
+          },
+          {
+            "name": "Kulfi Cart with Mango, Malai, Oreo and Pina colada",
+            "price": 6
+          },
+          {
+            "name": "Live Jalebi",
+            "price": 5,
+            "labor": 0
+          }
+        ]
+      },
+      {
+        "name": "Cutlery and Bussers",
+        "eventId": "1762881401217_4w56",
+        "laborCount": 12,
+        "laborCost": 250,
+        "hideFromPrint": false,
+        "items": [
+          {
+            "name": "Cutlery charges Dinner plates, Appetizer Plates, spoons, forks, water goblets",
+            "price": 14,
+            "labor": 0
+          },
+          {
+            "name": "Bussers, dish washers, Manager",
+            "price": 0,
+            "labor": 10
+          },
+          {
+            "name": "Trash removal",
+            "price": 3,
+            "labor": 2
+          }
+        ]
+      }
+    ],
+    "autoPricePerPerson": false,
+    "pricePerPerson": 0,
+    "fees": {
+      "labor": 0,
+      "chafing": 0,
+      "travel": 0,
+      "kitchen": 0
+    },
+    "taxRate": 0.06,
+    "activeEventId": "1762881401217_4w56",
+    "paymentMade": 0,
+    "createdAt": 1765849203810
+  }
+]

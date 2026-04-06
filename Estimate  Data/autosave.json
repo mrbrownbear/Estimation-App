@@ -1,0 +1,482 @@
+{
+  "client": {
+    "name": "Milan Merchant",
+    "planner": "Nandani",
+    "date": "2026-06-20",
+    "guests": 0,
+    "address": "",
+    "events": [
+      {
+        "id": "1763646277140_hmt2",
+        "date": "2026-06-18",
+        "guests": 150,
+        "fees": {
+          "labor": 0,
+          "chafing": 1650,
+          "travel": 650,
+          "kitchen": 1800
+        },
+        "type": "Mehndi Ceremony",
+        "timing": "6:00-9:00pm",
+        "address": "Astro"
+      },
+      {
+        "id": "1763647088395_44hw",
+        "date": "2026-06-19",
+        "guests": 100,
+        "fees": {
+          "labor": 0,
+          "chafing": 1200,
+          "travel": 650,
+          "kitchen": 1800
+        },
+        "type": "Wedding Evening",
+        "timing": "6:00 -9:00 pm",
+        "address": "Lake Lanier"
+      },
+      {
+        "id": "1763647738650_2hdi",
+        "date": "2026-06-20",
+        "guests": 250,
+        "fees": {
+          "labor": 0,
+          "chafing": 1650,
+          "travel": 650,
+          "kitchen": 1800
+        },
+        "type": "Reception",
+        "timing": "6:00 -10:30 pm",
+        "address": "Lake Lanier"
+      }
+    ],
+    "phone": "404-789-7601"
+  },
+  "stations": [
+    {
+      "name": "Chaat Station",
+      "eventId": "1763646277140_hmt2",
+      "laborCount": 3,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Samosa chana chaat",
+          "price": 5,
+          "labor": 1
+        },
+        {
+          "name": "Maggi Balls",
+          "price": 3,
+          "labor": 1
+        },
+        {
+          "name": "Pani Puri 3 Flavors",
+          "price": 4,
+          "labor": 1
+        }
+      ]
+    },
+    {
+      "name": "Chinese Station",
+      "eventId": "1763646277140_hmt2",
+      "laborCount": 1,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Hakka Noodles",
+          "price": 3,
+          "labor": 1
+        },
+        {
+          "name": "Basil Fried rice",
+          "price": 3,
+          "labor": 0
+        },
+        {
+          "name": "Veg Momos",
+          "price": 3,
+          "labor": 0
+        },
+        {
+          "name": "Chili Chicken",
+          "price": 4,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Kabob Station",
+      "eventId": "1763646277140_hmt2",
+      "laborCount": 2,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Chicken Sheekh Kabob",
+          "price": 4,
+          "labor": 0
+        },
+        {
+          "name": "Chicken Tikka",
+          "price": 4,
+          "labor": 0
+        },
+        {
+          "name": "Mint and Tandoori Paneer Skewer",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Lamb Chops (150 Pcs)",
+          "price": 8,
+          "labor": 1
+        }
+      ]
+    },
+    {
+      "name": "Mediterranean Station",
+      "eventId": "1763646277140_hmt2",
+      "laborCount": 2,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Joojeh Chicken Kabob",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Spicy Red pepper  Hummus",
+          "price": 2,
+          "labor": 0
+        },
+        {
+          "name": "Adas Polo Rice",
+          "price": 3,
+          "labor": 0
+        },
+        {
+          "name": "Pita Bread",
+          "price": 2,
+          "labor": 1
+        }
+      ]
+    },
+    {
+      "name": "Dessert Station",
+      "eventId": "1763646277140_hmt2",
+      "laborCount": 3,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Ice Cream Bar with 4 Flavors",
+          "price": 6,
+          "labor": 2
+        },
+        {
+          "name": "Donut Stand",
+          "price": 5,
+          "labor": 1
+        }
+      ]
+    },
+    {
+      "name": "Appetizer station",
+      "eventId": "1763647088395_44hw",
+      "laborCount": 3,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Lilva kachori",
+          "price": 3,
+          "labor": 1
+        },
+        {
+          "name": "Khaman Dhokla",
+          "price": 3,
+          "labor": 1
+        },
+        {
+          "name": "Bata vada",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Veg TBD",
+          "price": 3,
+          "labor": 0
+        },
+        {
+          "name": "Veg TBD",
+          "price": 3,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Main Course",
+      "eventId": "1763647088395_44hw",
+      "laborCount": 4,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Sev Tomato Shaak",
+          "price": 3,
+          "labor": 1
+        },
+        {
+          "name": "Undhiyu",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Ringan Bata Nu Shaak",
+          "price": 3,
+          "labor": 0
+        },
+        {
+          "name": "Gujrati Dal",
+          "price": 3,
+          "labor": 0
+        },
+        {
+          "name": "Puri",
+          "price": 2,
+          "labor": 1
+        },
+        {
+          "name": "Bajri roti",
+          "price": 2,
+          "labor": 1
+        },
+        {
+          "name": "Jeera Rice",
+          "price": 2,
+          "labor": 0
+        },
+        {
+          "name": "Peas pulao",
+          "price": 2,
+          "labor": 0
+        },
+        {
+          "name": "Salad, Papad, Raita, Pickle",
+          "price": 3,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Dessert",
+      "eventId": "1763647088395_44hw",
+      "laborCount": 0,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Shrikand Shots",
+          "price": 3,
+          "labor": 0
+        },
+        {
+          "name": "Mango Rus Shots",
+          "price": 3,
+          "labor": 0
+        },
+        {
+          "name": "Basundi shots",
+          "price": 3,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Runners and Cooks",
+      "eventId": "1763647088395_44hw",
+      "laborCount": 2,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "runners",
+          "price": 0,
+          "labor": 1
+        },
+        {
+          "name": "Cooks",
+          "price": 0,
+          "labor": 1
+        }
+      ]
+    },
+    {
+      "name": "Appetizer",
+      "eventId": "1763647738650_2hdi",
+      "laborCount": 6,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Live mint Paneer Skewer",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Malai Chicken",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Lamb chops (250 pcs)",
+          "price": 8,
+          "labor": 1
+        },
+        {
+          "name": "Pani Puri 3 flavors",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Jalapeno Paneer Taco",
+          "price": 3,
+          "labor": 2
+        }
+      ]
+    },
+    {
+      "name": "Mocktail live station with 2 bar tender",
+      "eventId": "1763647738650_2hdi",
+      "laborCount": 2,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Mango Mojito",
+          "price": 2,
+          "labor": 1
+        },
+        {
+          "name": "Raspberry Lycheetini",
+          "price": 2,
+          "labor": 1
+        }
+      ]
+    },
+    {
+      "name": "Main Course",
+      "eventId": "1763647738650_2hdi",
+      "laborCount": 2,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Dal Makhni",
+          "price": 4,
+          "labor": 2
+        },
+        {
+          "name": "Muttor Paneer",
+          "price": 4,
+          "labor": 0
+        },
+        {
+          "name": "Chicken Tikka Masala",
+          "price": 4,
+          "labor": 0
+        },
+        {
+          "name": "Navratan Korma",
+          "price": 4,
+          "labor": 0
+        },
+        {
+          "name": "Ra-Ra Goat Curry",
+          "price": 6,
+          "labor": 0
+        },
+        {
+          "name": "Rice",
+          "price": 2,
+          "labor": 0
+        },
+        {
+          "name": "Naan",
+          "price": 3,
+          "labor": 0
+        },
+        {
+          "name": "Rumlai Roti",
+          "price": 3,
+          "labor": 0
+        },
+        {
+          "name": "Salad, Raita, Pickle, Papad",
+          "price": 3,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Asian Fusion",
+      "eventId": "1763647738650_2hdi",
+      "laborCount": 1,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Schezwan Chicken",
+          "price": 4,
+          "labor": 0
+        },
+        {
+          "name": "Alfredo Pasta",
+          "price": 3,
+          "labor": 0
+        },
+        {
+          "name": "Gobi Manchurian",
+          "price": 3,
+          "labor": 1
+        }
+      ]
+    },
+    {
+      "name": "Dessert Station",
+      "eventId": "1763647738650_2hdi",
+      "laborCount": 4,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Live falooda Station  rose rabdi",
+          "price": 4,
+          "labor": 2
+        },
+        {
+          "name": "Dessert Shots  2 Types",
+          "price": 6,
+          "labor": 1
+        },
+        {
+          "name": "Kulfi Cart with 4 flavors",
+          "price": 6,
+          "labor": 1
+        }
+      ]
+    }
+  ],
+  "autoPricePerPerson": false,
+  "pricePerPerson": 0,
+  "fees": {
+    "labor": 0,
+    "chafing": 0,
+    "travel": 0,
+    "kitchen": 0
+  },
+  "taxRate": 0.06,
+  "activeEventId": "1763647088395_44hw"
+}

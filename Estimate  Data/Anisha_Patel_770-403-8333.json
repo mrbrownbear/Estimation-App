@@ -1,0 +1,97 @@
+{
+  "client": {
+    "name": "Anisha Patel  770-403-8333",
+    "planner": "",
+    "guests": 200,
+    "address": "8000 Capps Ferry Rd, Douglasville, GA 30135",
+    "events": [
+      {
+        "id": "1762994599715_6la0",
+        "date": "2026-09-19",
+        "guests": 200,
+        "fees": {
+          "labor": 0,
+          "chafing": 0,
+          "travel": 0,
+          "kitchen": 2200
+        },
+        "type": "Sangeet",
+        "address": "3216 Old Hwy 75 S, Cleveland, GA 30528",
+        "timing": "6:00 pm - 9:00 pm"
+      },
+      {
+        "id": "1762994652582_cl76",
+        "date": "2026-09-20",
+        "guests": 200,
+        "fees": {
+          "labor": 0,
+          "chafing": 0,
+          "travel": 0,
+          "kitchen": 0
+        },
+        "type": "Reception",
+        "address": "8000 Capps Ferry Rd, Douglasville, GA 30135"
+      }
+    ]
+  },
+  "stations": [
+    {
+      "name": "Chaat Station",
+      "eventId": "1762994599715_6la0",
+      "laborCount": 0,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Pani Puri with 3 flavors",
+          "price": 4,
+          "labor": 0
+        },
+        {
+          "name": "Khasta kachori",
+          "price": 4,
+          "labor": 0
+        },
+        {
+          "name": "Bhel Martini Chaat",
+          "price": 3,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Bombay Station",
+      "eventId": "1762994599715_6la0",
+      "laborCount": 0,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Veg Cutlet",
+          "price": 3,
+          "labor": 0
+        },
+        {
+          "name": "Dabeli",
+          "price": 4,
+          "labor": 0
+        },
+        {
+          "name": "",
+          "price": 0,
+          "labor": 0
+        }
+      ]
+    }
+  ],
+  "autoPricePerPerson": false,
+  "pricePerPerson": 0,
+  "fees": {
+    "labor": 0,
+    "chafing": 0,
+    "travel": 0,
+    "kitchen": 0
+  },
+  "taxRate": 0.06,
+  "activeEventId": ""
+}

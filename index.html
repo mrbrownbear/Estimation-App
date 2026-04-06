@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estimate Builder</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>Estimate</h1>
+      <div class="actions">
+        <button id="newEstimateBtn">New Estimate</button>
+        <button id="saveEstimateBtn">Save Estimate</button>
+        <label class="saved-select">
+          <span>Saved Estimates:</span>
+          <select id="savedEstimatesSelect"></select>
+        </label>
+        <button id="loadEstimateBtn">Load</button>
+        <button id="contractBtn">Contract</button>
+        <button id="printBtn">Print</button>
+        <label>
+          <input type="checkbox" id="hidePrintTotal" />
+          Hide total on print
+        </label>
+        <div id="moreDropdown" class="dropdown">
+          <button id="moreBtn" class="secondary">More</button>
+          <div id="moreMenu" class="dropdown-menu">
+            <button id="saveAsNewBtn" class="secondary">Save As New</button>
+            <button id="updateEstimateBtn" class="secondary">Update</button>
+            <button id="deleteEstimateBtn" class="danger">Delete</button>
+            <hr />
+            
+            <button id="exportAllToFolderBtn" class="secondary">Export ↑</button>
+            <button id="exportToFolderBtn" class="secondary">Export Estimate to Folder…</button>
+            <button id="importBtn">Import ↓</button>
+            <button id="importFromFolderBtn" class="secondary">Import from Folder…</button>
+            
+            <hr />
+            <button id="editContractBtn">Edit Contract</button>
+            <button id="editHeaderBtn" class="secondary">Edit Header Address</button>
+            <hr />
+            <button id="saveEstimatePdfBtn" class="secondary">Save Estimate PDF</button>
+            <button id="saveContractPdfBtn" class="secondary">Save Contract PDF</button>
+            <hr />
+            <button id="setLogoBtn" class="secondary">Set Logo</button>
+            <hr />
+            <button id="supabaseConfigBtn" class="secondary">Supabase Settings</button>
+            <button id="supabaseLoginBtn" class="secondary">Supabase Login</button>
+            <button id="supabaseSaveBtn" class="secondary">Cloud Save</button>
+            <button id="supabaseLoadBtn" class="secondary">Cloud Load</button>
+            <button id="supabaseLogoutBtn" class="secondary">Cloud Logout</button>
+          </div>
+        </div>
+        <input type="file" id="importFile" accept="application/json" style="display:none" />
+        <input type="file" id="brandLogoInput" accept="image/*" style="display:none" />
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- Client Info -->
+      <section class="card" id="clientInfo">
+        <h2>Client Info</h2>
+        <div class="grid-2">
+          <label>
+            Client Name
+            <input type="text" id="clientName" placeholder="Client name" />
+          </label>
+          <label>
+            Planner Name
+            <input type="text" id="plannerName" placeholder="Planner name" />
+          </label>
+          <label>
+            Client Contact
+            <input type="text" id="clientPhone" placeholder="Client phone" />
+          </label>
+          <label>
+            Event Date
+            <input type="date" id="eventDate" />
+          </label>
+          <label>
+            Guest Count
+            <input type="number" id="guestCount" min="0" step="1" />
+          </label>
+          <label>
+            Timing
+            <input type="text" id="eventTiming" placeholder="e.g., 6:00–9:30 PM" />
+          </label>
+          <label>
+            Event Type
+            <input type="text" id="eventType" placeholder="e.g., Wedding, Reception" />
+          </label>
+          <label class="full">
+            Event Address
+            <textarea id="eventAddress" rows="2" placeholder="Address"></textarea>
+          </label>
+          <label class="full">
+            Comment
+            <textarea id="clientComment" rows="2" placeholder="Any comments"></textarea>
+          </label>
+        </div>
+        <div class="events-controls">
+          <label>
+            Active Event
+            <select id="eventSelect">
+              <option value="">Select event date</option>
+            </select>
+          </label>
+          <div id="activeEventMeta" class="events-meta" aria-live="polite"></div>
+          <div class="events-actions">
+            <button id="addEventBtn" class="secondary">Add Event Date</button>
+            <button id="updateEventDateBtn" class="secondary">Update Active Event Date</button>
+            <button id="deleteEventBtn" class="danger">Delete Active Event</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stations -->
+      <section class="card" id="stationsSection">
+        <div class="section-header">
+          <h2>Stations</h2>
+          <button id="addStationBtn">Add Station</button>
+        </div>
+        <div id="stationsContainer"></div>
+      </section>
+
+      <!-- Totals -->
+      <section class="card" id="totalsSection">
+        <h2>Totals</h2>
+        <div class="totals-grid">
+          <div class="totals-left">
+            <div class="stat">
+              <div class="label">Total Items Price</div>
+              <div class="value" id="totalItemsPrice">$0.00</div>
+            </div>
+            <div class="stat">
+              <div class="label">Total Food Cost (items × guests)</div>
+              <div class="value" id="totalFoodCost">$0.00</div>
+              <div id="foodCostFormula" class="subtext"></div>
+            </div>
+            <div class="stat">
+              <div class="label">Total Labor (count)</div>
+              <div class="value" id="totalLaborCount">0</div>
+            </div>
+            <div class="subtext" id="calculatedLaborValue"></div>
+            <div class="custom-charges">
+              <div id="customChargesContainer"></div>
+              <button id="addCustomChargeBtn" class="secondary">Add Custom Charge</button>
+            </div>
+            <div class="discount-inputs">
+              <label class="full">
+                Discount Description
+                <input type="text" id="discountDescription" placeholder="Enter discount description" />
+              </label>
+              <label class="full">
+                Discount Amount
+                <input type="number" id="discountAmount" min="0" step="0.01" />
+              </label>
+            </div>
+          </div>
+          <div class="totals-right">
+            <label>
+              Chafing Charges
+              <input type="number" id="chafingCharges" min="0" step="0.01" />
+            </label>
+            <label>
+              Travel Charges
+              <input type="number" id="travelCharges" min="0" step="0.01" />
+            </label>
+            <label>
+              Kitchen on Wheels
+              <input type="number" id="kitchenOnWheels" min="0" step="0.01" />
+            </label>
+            <div class="tax-row">
+              <span>Tax Rate (%)</span>
+              <input type="number" id="taxRate" min="0" step="0.01" value="6" />
+              <span>Charge Tax</span>
+              <input type="checkbox" id="chargeTax" checked />
+            </div>
+          </div>
+        </div>
+
+        <div class="summary">
+          <div>
+            <span class="label">Subtotal (Food + Fees):</span>
+            <span id="subtotal">$0.00</span>
+          </div>
+          <div>
+            <span class="label">Tax:</span>
+            <span id="taxAmount">$0.00</span>
+          </div>
+          <div class="grand">
+            <span class="label">Total Estimate:</span>
+            <span id="grandTotal">$0.00</span>
+          </div>
+          <div>
+            <span class="label">Payment Received:</span>
+            <input type="number" id="paymentMade" min="0" step="0.01" />
+          </div>
+          <div>
+            <span class="label">Balance:</span>
+            <span id="balanceLeft">$0.00</span>
+          </div>
+        </div>
+        <div class="special-notes-input">
+          <label class="full">
+            Special Notes (this event)
+            <textarea id="eventNote" rows="2" placeholder="Enter any special notes for this event"></textarea>
+          </label>
+        </div>
+        <div id="totalsNoteDisplay" class="special-notes" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <small>Estimate software — local, private, and saved in your browser.</small>
+    </footer>
+
+    <!-- Print-only layout -->
+    <section id="printView" class="print-view" aria-hidden="true">
+      <!-- Fixed page number for browser printing (Chrome: uncheck Headers and footers) -->
+      <div class="page-number" aria-hidden="true"></div>
+      <div class="print-header">
+        <div class="brand"><img class="brand-logo" alt="Brand Logo" /><span class="brand-text">Peri Peri Catering</span></div>
+        <div class="company">
+          <div>4450 Nelson Brogdon Blvd</div>
+          <div>Suite A-10-C</div>
+          <div>Buford, GA 30518</div>
+          <div>www.peripericatering.com</div>
+          <div>Raj Chahal : 404-771-9803</div>
+        </div>
+      </div>
+      <h1 class="print-title">Estimate</h1>
+
+        <div class="print-client">
+          <div><span>Client:</span> <span id="p_clientName"></span></div>
+          <div><span>Planner:</span> <span id="p_plannerName"></span></div>
+          <div><span>Contact:</span> <span id="p_clientPhone"></span></div>
+          <div><span>Date:</span> <span id="p_eventDate"></span></div>
+          <div><span>Guests:</span> <span id="p_guestCount"></span></div>
+          <div><span>Timing:</span> <span id="p_eventTiming"></span></div>
+          <div><span>Event Type:</span> <span id="p_eventType"></span></div>
+          <div class="full"><span>Address:</span> <span id="p_eventAddress"></span></div>
+        </div>
+
+      <table class="print-table" id="printItemsTable">
+        <thead>
+          <tr>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <div class="keep-together">
+      <table class="print-totals">
+        <tbody>
+          <tr>
+            <td>Total Food Cost (items × guests)</td>
+            <td id="p_totalFoodCost" class="amount"></td>
+          </tr>
+          <tr>
+            <td>Labor</td>
+            <td id="p_labor" class="amount"></td>
+          </tr>
+          <tr>
+            <td>Chafing charges</td>
+            <td id="p_chafing" class="amount"></td>
+          </tr>
+          <tr>
+            <td>Travel charges</td>
+            <td id="p_travel" class="amount"></td>
+          </tr>
+          <tr>
+            <td>Kitchen on wheels</td>
+            <td id="p_kitchen" class="amount"></td>
+          </tr>
+          <tr id="p_discount_row" style="display:none;">
+            <td>Discount</td>
+            <td id="p_discount" class="amount"></td>
+          </tr>
+          <tr>
+            <td>Subtotal</td>
+            <td id="p_subtotal" class="amount"></td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td id="p_tax" class="amount"></td>
+          </tr>
+          <tr class="grand">
+            <td>Total Price</td>
+            <td id="p_grand" class="amount"></td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <!-- Contract print-only layout -->
+    <section id="contractView" class="contract-view" aria-hidden="true">
+      <!-- Page 1: Terms and signatures -->
+      <div class="contract-page">
+        <div class="print-header">
+          <div class="brand"><img class="brand-logo" alt="Brand Logo" /><span class="brand-text">Peri Peri Catering</span></div>
+          <div class="company">
+            <div>Punjabi Rasoi LLC</div>
+            <div>4450 Nelson Brogdon Blvd</div>
+            <div>Suite A-10-C</div>
+            <div>Buford, GA 30518</div>
+            <div>404-771-9803</div>
+          </div>
+        </div>
+        <h1 class="print-title">Event Contract</h1>
+        <div class="print-client">
+          <div><span>Client:</span> <span id="c_clientName"></span></div>
+          <div><span>Planner:</span> <span id="c_plannerName"></span></div>
+          <div><span>Contact:</span> <span id="c_clientPhone"></span></div>
+          <div><span>Date:</span> <span id="c_eventDate"></span></div>
+          <div><span>Guests:</span> <span id="c_guestCount"></span></div>
+          <div><span>Event Type:</span> <span id="c_eventType"></span></div>
+          <div><span>Timing:</span> <span id="c_eventTiming"></span></div>
+          <div class="full"><span>Address:</span> <span id="c_eventAddress"></span></div>
+          <div class="full" id="c_clientCommentRow" style="display:none;"><span>Comment:</span> <span id="c_clientComment"></span></div>
+        </div>
+        <ol class="terms">
+          <li>
+            <div>Punjabi Rasoi will not provide the following list of items:</div>
+            <ul>
+              <li>Tables, Table Clothes</li>
+              <li>Cutlery or Disposables (optional when requested for extra charges)</li>
+              <li>Trash removal (optional when requested for extra charges)</li>
+              <li>Cleaning and Bussing (optional when requested for extra charges)</li>
+            </ul>
+          </li>
+          <li>
+            Punjabi Rasoi requires to be informed of any changes to the menu or number of guests 4 weeks prior to the event date. Guest can make changes or substitute menu items with similar food items 4 weeks before the event date. Punjabi Rasoi LLC keeps the right to charge the client for total number of guest count based on total seats reserved in the venue. Punjabi Rasoi LLC wants to keep the rights to inquire the venue for this information so that Punjabi Rasoi LLC can prepare food for your guest accordingly. If guest count goes down only food cost changes, other cost remains unchanged.
+          </li>
+          <li>
+            <strong>Cancellation Policy:</strong> After booking the event if for any reason client decides not to go with Punjabi Rasoi LLC, Punjabi Rasoi keeps the right to keep the total deposit for the effort, time spent on planning the event and holding the date. If event is postponed due to any reason other than act of God (pandemic, storms etc.) Punjabi Rasoi LLC keeps the right to keep 30% of total event amount for the date reserved for the event. If for any reason Punjabi Rasoi decides to cancel the event full amount is refunded to the client.
+          </li>
+          <li>
+            Load in and load time can change based on timeline. Punjabi Rasoi will notify if we cannot reach on time for load in and load out, due to circumstances (traffic, bad weather, vehicle broke down etc.) but will strive to serve the guest food on time no matter what. If customer entrance and loading dock are same then Punjabi Rasoi has to load in front of guest unless otherwise notified.
+          </li>
+          <li>
+            <div>Punjabi Rasoi Team Members:</div>
+            <ul>
+              <li>Will provide service only behind the food counters</li>
+              <li>Will not be responsible for any cleaning/removal of trash in the facility where the event is held unless agreed and paid for the services</li>
+              <li>Will only clean tables when full service is ordered through Punjabi Rasoi LLC</li>
+            </ul>
+          </li>
+          <li>
+            Punjabi Rasoi keeps the right to pre-cook the food and do the final cooking at the event if weather or location does not permit LIVE cooking. Client is required to provide a designated space free from any flammable items which is needed for LIVE cooking. Punjabi Rasoi LLC will provide drop cloths to place under the grill for LIVE cooking and is not liable for any damage caused to grass or concrete surface.
+          </li>
+          <li>
+            Punjabi Rasoi always strives to make the client’s event a wonderful memory with great food, presentation, and service. Punjabi Rasoi Will Not Setup and serve food provided by other vender or household, if other than Punjabi Rasoi LLC food is served, Punjabi Rasoi Will Not be Liable for any Food born illness caused to the Guest, as it becomes hard to distinguish Which food caused the illness. Clients Have to take Full Responsibility for any damage caused by illness, when outside food is served with Punjabi Rasoi LLC Food.
+          </li>
+          <li>
+            Punjabi Rasoi will provide food for the number of guests stated by the client 4 Weeks before the event date. Should the number of guests be less than the stated number, Punjabi Rasoi will not refund any amount to the client. However, Punjabi Rasoi is not responsible for shortage of food above the stated number of guests. Client is responsible to add all venders to the guest list, Punjabi Rasoi LLC can refuse to serve vender otherwise.
+          </li>
+          <li>
+            Punjabi Rasoi will provide required insurance proof to event center and client naming of policy including liability Insurance.
+          </li>
+          <li>
+            Any Delay or Extended Time for any event will be charged 10% of the total amount of that event in 30 minutes increments, if not Notified of any delay, 2 hours prior to the event start. If anytime Appetizers time need to be extended, we require 30 minutes notice prior to end time of appetizer, and the dinner will be pushed back the same extended time.
+          </li>
+          <li>
+            Food Setup and serving: Punjabi Rasoi Will Need Minimum of 1 hour to setup for single Buffett after appetizer and 1.5 hour for 2 buffets. As per Food Safety Regulations the Stations cannot serve hot food for more than 3 hours, keeping that in mind the Max serving time for any continuous Station Cannot Exceed more than 3 hours. Dinner Buffet is served for max of 2 hours and Appetizer for Max 1.5 hour.
+          </li>
+          <li>
+            Payment & Terms of Payment: Punjabi Rasoi Requires 30% payment at time of confirming the booking and 70% Three Weeks Before the event.
+          </li>
+        </ol>
+        <div class="signatures">
+          <div>
+            <div>Client’s Signature __________________________</div>
+            <div>Name: __________________________</div>
+            <div>Date: __________________________</div>
+          </div>
+          <div>
+            <div>Punjabi Rasoi LLC __________________________</div>
+            <div>Name: Raj Chahal</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Page 2: Menu (stations and items, no prices) -->
+      <div class="contract-page">
+        <div class="print-header">
+          <div class="brand"><img class="brand-logo" alt="Brand Logo" /><span class="brand-text">Peri Peri Catering</span></div>
+          <div class="company">
+            <div>Punjabi Rasoi LLC</div>
+            <div>4450 Nelson Brogdon Blvd</div>
+            <div>Suite A-10-C</div>
+            <div>Buford, GA 30518</div>
+            <div>404-771-9803</div>
+          </div>
+        </div>
+        <div class="contract-meta">
+        <div id="c_eventDate2"></div>
+        <div>Guest count <span id="c_guestCount2"></span></div>
+        <div>Event Type: <span id="c_eventType2"></span></div>
+        <div>Timing: <span id="c_timing2">TBD</span></div>
+        </div>
+        <div id="contractMenu"></div>
+        <div class="footer-sign">
+          <span>Client____</span>
+          <span>PR____</span>
+        </div>
+      </div>
+
+      <!-- Page 3: Pricing and notes -->
+      <div class="contract-page">
+        <div class="print-header">
+          <div class="brand"><img class="brand-logo" alt="Brand Logo" /><span class="brand-text">Peri Peri Catering</span></div>
+          <div class="company">
+            <div>Punjabi Rasoi LLC</div>
+            <div>4450 Nelson Brogdon Blvd</div>
+            <div>Suite A-10-C</div>
+            <div>Buford, GA 30518</div>
+            <div>404-771-9803</div>
+          </div>
+        </div>
+        <div class="pricing">
+          <div>Price <span id="c_price" class="amount"></span></div>
+          <div>Tax <span id="c_taxRateDisplay"></span> <span id="c_taxAmount" class="amount"></span> (Tax on Food and Rental only)</div>
+          <div class="grand">Total <span id="c_total" class="amount"></span></div>
+          <!-- pricing only; payment/balance appears below -->
+        </div>
+        <div class="post-notes">
+          <div class="grand">Payment Received <span id="c_payment" class="amount"></span></div>
+          <div class="grand">Balance <span id="c_balance" class="amount"></span></div>
+          <div id="c_kitchenIncluded"></div>
+          <div id="c_customIncluded"></div>
+          <div id="c_discountIncluded"></div>
+        </div>
+        <div class="notes">
+          <div><strong>Price includes</strong> Food, Refrigerator Truck, Labor, Travel, Chafing Rental</div>
+          <div>Please make the check only via Fed-ex or UPS to Punjabi Rasoi LLC (Mail To: 1680 Terrace Lake Dr, Lawrenceville, GA 30043)</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contract Editor Modal -->
+    <div id="contractEditor" class="modal" aria-hidden="true">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Edit Contract Wording</h2>
+          <button id="closeContractEditor" class="secondary">Close</button>
+        </div>
+        <div class="modal-body">
+          <label class="full">
+            <span>Page 1 Terms (use blank lines to separate clauses; start lines with '- ' for bullets)</span>
+            <textarea id="contractTermsInput" rows="14"></textarea>
+          </label>
+          <label class="full">
+            <span>Page 3 Notes (each line becomes a paragraph; start with '- ' for bullets)</span>
+            <textarea id="contractNotesInput" rows="8"></textarea>
+          </label>
+        </div>
+        <div class="modal-footer">
+          <button id="saveContractTemplateBtn">Save Contract Wording</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header Address Editor Modal -->
+    <div id="headerEditor" class="modal" aria-hidden="true">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Edit Header Address</h2>
+          <button id="closeHeaderEditor" class="secondary">Close</button>
+        </div>
+        <div class="modal-body">
+          <label class="full">
+            <span>Header address lines (each line becomes a separate line)</span>
+            <textarea id="headerAddressInput" rows="6" placeholder="e.g.&#10;Punjabi Rasoi LLC&#10;4450 Nelson Brogdon Blvd&#10;Suite A-10-C&#10;Buford, GA 30518&#10;404-771-9803"></textarea>
+          </label>
+        </div>
+        <div class="modal-footer">
+          <button id="saveHeaderBtn">Save Header Address</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PDF generation libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="app.js"></script>
+	<script>window.API_BASE_URL = 'http://localhost/estimate';</script>
+  </body>
+  </html>

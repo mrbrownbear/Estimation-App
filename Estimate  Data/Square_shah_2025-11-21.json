@@ -1,0 +1,373 @@
+{
+  "client": {
+    "name": "Square shah",
+    "planner": "Nilima",
+    "guests": 420,
+    "address": "Westin Perimeter",
+    "events": [
+      {
+        "id": "1763257818756_j2gb",
+        "date": "2025-11-21",
+        "guests": 420,
+        "fees": {
+          "labor": 0,
+          "chafing": 0,
+          "travel": 0,
+          "kitchen": 0
+        },
+        "type": "Sangeet",
+        "address": "Westin Perimeter",
+        "timing": "6:00 pm  -9:00 pm"
+      },
+      {
+        "id": "1763257867041_f01n",
+        "date": "2025-11-22",
+        "guests": 325,
+        "fees": {
+          "labor": 0,
+          "chafing": 0,
+          "travel": 0,
+          "kitchen": 0
+        },
+        "type": "Reception",
+        "address": "Westin Perimeter",
+        "timing": "6:00 pm - 10:00 pm"
+      }
+    ]
+  },
+  "stations": [
+    {
+      "name": "Chaat Station",
+      "eventId": "1763257818756_j2gb",
+      "laborCount": 6,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Pani Puri 3 Flavors",
+          "price": 0,
+          "labor": 1
+        },
+        {
+          "name": "Dahi Paneer Tikki with Mango Chutney",
+          "price": 0,
+          "labor": 2
+        },
+        {
+          "name": "Mac Aloo Tikki Slider",
+          "price": 0,
+          "labor": 3
+        }
+      ]
+    },
+    {
+      "name": "Veg Station",
+      "eventId": "1763257818756_j2gb",
+      "laborCount": 3,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Paneer Tempura Bao Bun",
+          "price": 0,
+          "labor": 2
+        },
+        {
+          "name": "Lasooni Gobi",
+          "price": 0,
+          "labor": 1
+        },
+        {
+          "name": "Hakka Noodles",
+          "price": 0,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Daves Mexican Station",
+      "eventId": "1763257818756_j2gb",
+      "laborCount": 4,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Mexican Pizza",
+          "price": 0,
+          "labor": 3
+        },
+        {
+          "name": "Mexican Bhel Live",
+          "price": 0,
+          "labor": 1
+        },
+        {
+          "name": "Mexican Spring roll",
+          "price": 0,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Thai station",
+      "eventId": "1763257818756_j2gb",
+      "laborCount": 0,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Spicy Basil Fried Rice",
+          "price": 0,
+          "labor": 0
+        },
+        {
+          "name": "White Rice",
+          "price": 0,
+          "labor": 0
+        },
+        {
+          "name": "Green Thai Curry",
+          "price": 0,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Non-Veg Station",
+      "eventId": "1763257818756_j2gb",
+      "laborCount": 1,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Tandoori Shrimp",
+          "price": 0,
+          "labor": 1
+        },
+        {
+          "name": "Spicy Mint chicken",
+          "price": 0,
+          "labor": 0
+        },
+        {
+          "name": "Fire Cracker Chicken Bites",
+          "price": 0,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Cocktail",
+      "eventId": "1763257867041_f01n",
+      "laborCount": 0,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Lamb Chops(325pcs)",
+          "price": 0,
+          "labor": 0
+        },
+        {
+          "name": "Achari Chicken Kabob",
+          "price": 0,
+          "labor": 0
+        },
+        {
+          "name": "Chutney Balls",
+          "price": 0,
+          "labor": 0
+        },
+        {
+          "name": "Wonton Paneer Taco",
+          "price": 0,
+          "labor": 0
+        },
+        {
+          "name": "Mango Pineapple Papdi Chaat",
+          "price": 0,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Main Course 2 Stations",
+      "eventId": "1763257867041_f01n",
+      "laborCount": 6,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Shahi Paneer Spicy",
+          "price": 0,
+          "labor": 2
+        },
+        {
+          "name": "Saag",
+          "price": 0,
+          "labor": 2
+        },
+        {
+          "name": "Dal Bhukara",
+          "price": 0,
+          "labor": 2
+        },
+        {
+          "name": "Black Pepper Chicken Curry",
+          "price": 0,
+          "labor": 0
+        },
+        {
+          "name": "Tawa Masala Chicken Curry",
+          "price": 0,
+          "labor": 0
+        },
+        {
+          "name": "Rice",
+          "price": 0,
+          "labor": 0
+        },
+        {
+          "name": "Salad, Raita, Papad, Pickle",
+          "price": 0,
+          "labor": 0
+        },
+        {
+          "name": "Maki Roti",
+          "price": 0,
+          "labor": 0
+        },
+        {
+          "name": "Rumali Roti",
+          "price": 0,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Dessert",
+      "eventId": "1763257867041_f01n",
+      "laborCount": 5,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Live Paan Station with Paan Shots",
+          "price": 0,
+          "labor": 3
+        },
+        {
+          "name": "Churros with Topping",
+          "price": 0,
+          "labor": 0
+        },
+        {
+          "name": "Ras Malai Tres Leches",
+          "price": 0,
+          "labor": 1
+        },
+        {
+          "name": "Cannoli on  Wheels",
+          "price": 0,
+          "labor": 1
+        }
+      ]
+    },
+    {
+      "name": "After hours",
+      "eventId": "1763257867041_f01n",
+      "laborCount": 0,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Mini Pancake with Toppings",
+          "price": 0,
+          "labor": 0
+        },
+        {
+          "name": "Hot Cheeto Mac n Cheese",
+          "price": 0,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Runner and Cooks",
+      "eventId": "1763257818756_j2gb",
+      "laborCount": 10,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Runner",
+          "price": 0,
+          "labor": 6
+        },
+        {
+          "name": "cook",
+          "price": 0,
+          "labor": 4
+        }
+      ]
+    },
+    {
+      "name": "runner and cooks",
+      "eventId": "1763257867041_f01n",
+      "laborCount": 4,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Runners",
+          "price": 0,
+          "labor": 0
+        },
+        {
+          "name": "Cook",
+          "price": 0,
+          "labor": 4
+        }
+      ]
+    },
+    {
+      "name": "Dessert",
+      "eventId": "1763257818756_j2gb",
+      "laborCount": 0,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Jalebi Rabdi Live",
+          "price": 0,
+          "labor": 0
+        },
+        {
+          "name": "Falooda with 4 Flavor",
+          "price": 0,
+          "labor": 0
+        },
+        {
+          "name": "Gulab Jamun Cheesecake Shot",
+          "price": 0,
+          "labor": 0
+        },
+        {
+          "name": "",
+          "price": 0,
+          "labor": 0
+        }
+      ]
+    }
+  ],
+  "autoPricePerPerson": false,
+  "pricePerPerson": 0,
+  "fees": {
+    "labor": 0,
+    "chafing": 0,
+    "travel": 0,
+    "kitchen": 0
+  },
+  "taxRate": 0.06,
+  "activeEventId": "1763257818756_j2gb"
+}

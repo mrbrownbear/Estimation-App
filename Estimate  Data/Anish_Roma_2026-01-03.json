@@ -1,0 +1,296 @@
+{
+  "client": {
+    "name": "Anish & Roma",
+    "planner": "Nilima Patel",
+    "guests": 0,
+    "address": "",
+    "events": [
+      {
+        "id": "1763558049012_q56l",
+        "date": "2026-01-02",
+        "guests": 162,
+        "fees": {
+          "labor": 0,
+          "chafing": 1500,
+          "travel": 650,
+          "kitchen": 1800
+        },
+        "type": "Garba Night",
+        "timing": "6:00-9:00pm",
+        "address": "Westin Duluth"
+      },
+      {
+        "id": "1763558084541_cnkj",
+        "date": "2026-01-03",
+        "guests": 173,
+        "fees": {
+          "labor": 0,
+          "chafing": 1800,
+          "travel": 650,
+          "kitchen": 1800
+        },
+        "type": "Reception",
+        "timing": "6:00-10:30 pm",
+        "address": "Westin Duluth"
+      }
+    ]
+  },
+  "stations": [
+    {
+      "name": "Chaat Station",
+      "eventId": "1763558049012_q56l",
+      "laborCount": 4,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Pani Puri 3 flavors",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Pav bhaji Empanadas",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Peri Peri corn Chaat shots",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Mini Paneer Sliders",
+          "price": 4,
+          "labor": 1
+        }
+      ]
+    },
+    {
+      "name": "Asian Station",
+      "eventId": "1763558049012_q56l",
+      "laborCount": 2,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Hakka Noodles",
+          "price": 3,
+          "labor": 1
+        },
+        {
+          "name": "Lasooni Gobi",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Spicy Basil Fried Rice",
+          "price": 3,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Mexican Station",
+      "eventId": "1763558049012_q56l",
+      "laborCount": 4,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Mexican spring roll",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Taco Chaat Cups",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Samosa Quesadilla",
+          "price": 4,
+          "labor": 2
+        }
+      ]
+    },
+    {
+      "name": "Dessert Station",
+      "eventId": "1763558049012_q56l",
+      "laborCount": 2,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Kufi Cart (Malai, Mango, Paan)",
+          "price": 6,
+          "labor": 1
+        },
+        {
+          "name": "Mango Pastry",
+          "price": 4,
+          "labor": 0
+        },
+        {
+          "name": "Pineapple Pastry",
+          "price": 4,
+          "labor": 1
+        }
+      ]
+    },
+    {
+      "name": "Runners & Cooks",
+      "eventId": "1763558049012_q56l",
+      "laborCount": 5,
+      "laborCost": 250,
+      "hideFromPrint": true,
+      "items": [
+        {
+          "name": "Runners",
+          "price": 0,
+          "labor": 2
+        },
+        {
+          "name": "Cooks",
+          "price": 0,
+          "labor": 3
+        }
+      ]
+    },
+    {
+      "name": "Cocktail",
+      "eventId": "1763558084541_cnkj",
+      "laborCount": 6,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Chicken Tikka",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Chicken Mint Kabob",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Mini Chutney Vada Pav",
+          "price": 4,
+          "labor": 2
+        },
+        {
+          "name": "Methi Paneer Tiiki",
+          "price": 4,
+          "labor": 2
+        }
+      ]
+    },
+    {
+      "name": "Main Course",
+      "eventId": "1763558084541_cnkj",
+      "laborCount": 0,
+      "laborCost": 0,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Kadi Pakoda",
+          "price": 4,
+          "labor": 0
+        },
+        {
+          "name": "Paneer Toofani",
+          "price": 4,
+          "labor": 0
+        },
+        {
+          "name": "Tawa Veg (Baingan, Bhindi, Jeera Aloo)",
+          "price": 9,
+          "labor": 0
+        },
+        {
+          "name": "Butter Chicken",
+          "price": 4,
+          "labor": 0
+        },
+        {
+          "name": "Naan",
+          "price": 3,
+          "labor": 0
+        },
+        {
+          "name": "Rumlai Roti",
+          "price": 3,
+          "labor": 0
+        },
+        {
+          "name": "Rice",
+          "price": 2,
+          "labor": 0
+        },
+        {
+          "name": "Salad, Raita,Papad, Pickle",
+          "price": 4,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Dessert",
+      "eventId": "1763558084541_cnkj",
+      "laborCount": 2,
+      "laborCost": 250,
+      "hideFromPrint": false,
+      "items": [
+        {
+          "name": "Mango Mousse With Boba",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Key Lime Cheesecake Shots",
+          "price": 4,
+          "labor": 0
+        },
+        {
+          "name": "Biscoff mousse Shots",
+          "price": 4,
+          "labor": 1
+        },
+        {
+          "name": "Paan Shots",
+          "price": 4,
+          "labor": 0
+        }
+      ]
+    },
+    {
+      "name": "Runners and Cooks",
+      "eventId": "1763558084541_cnkj",
+      "laborCount": 7,
+      "laborCost": 250,
+      "hideFromPrint": true,
+      "items": [
+        {
+          "name": "Runners",
+          "price": 0,
+          "labor": 4
+        },
+        {
+          "name": "Cooks",
+          "price": 0,
+          "labor": 3
+        }
+      ]
+    }
+  ],
+  "autoPricePerPerson": false,
+  "pricePerPerson": 0,
+  "fees": {
+    "labor": 0,
+    "chafing": 0,
+    "travel": 0,
+    "kitchen": 0
+  },
+  "taxRate": 0.06,
+  "activeEventId": "1763558084541_cnkj"
+}
